@@ -1,0 +1,4945 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+body {
+	color: #FFF;
+	font-family: 'MuseoSans-300';
+	font-size: 16px;
+}
+  
+.content {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.clear {
+	clear: both;
+}
+
+a.voltar {
+	background: url('../images/btVoltar.png') no-repeat left top;
+	display: block;
+	height: 15px;
+	margin-bottom: 84px;
+	text-indent: -9999px;
+	width: 58px;
+}
+
+
+.riocentro_fieldset {
+	display: none;
+}
+
+body.riocentro a.voltar,
+body.complexoDeodoro a.voltar,
+body.pqMapaOlimpico a.voltar {
+	background: url('../images/btVoltarBranco.png') no-repeat left top;
+	display: block;
+	height: 15px;
+	margin-bottom: 60px;
+	text-indent: -9999px;
+	width: 58px;
+}
+
+body.complexoDeodoro a.voltar,
+body.pqMapaOlimpico a.voltar {
+	margin-bottom: 27px;
+}
+
+body.portoMaravilha a.voltar,
+body.parqueMadureira a.voltar,
+body.miecimoSilva a.voltar {
+	margin-bottom: 50px;
+}
+
+.titInterna {
+	color: #1f437b;
+	font-family: 'MuseoSans-900';
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+body.riocentro .titInterna,
+body.complexoDeodoro .titInterna,
+body.pqMapaOlimpico .titInterna {
+	color: #fff;
+}
+
+.pinEnd {
+	background: url('../images/sprInternas.png') no-repeat 0 0;
+	display: inline-block;
+	float: left;
+	height: 29px;
+	margin-right: 15px;
+	width: 16px;
+}
+
+.end p {
+	color: #000;
+	font-family: 'MuseoSans-900';
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+body.riocentro .end,
+body.complexoDeodoro .end,
+body.pqMapaOlimpico .end {
+	float: left;
+}
+
+body.complexoDeodoro .end,
+body.pqMapaOlimpico .end {float:none;}
+
+body.riocentro .end p,
+body.complexoDeodoro .end p,
+body.pqMapaOlimpico .end p {
+	color: #fff;
+}
+
+body.complexoDeodoro p {
+	line-height: 16px;
+}
+
+body.pontal .end {
+	width: 297px
+}
+
+.desc {
+	float: left;
+	margin: 35px 0 27px;
+	width: 180px;
+}
+.desc p {
+	color: #000;
+	font-family: 'MuseoSans-900';
+	font-size: 14px;
+}
+
+body.pontal .desc {
+	width: 350px;
+}
+
+body.riocentro .desc,
+body.complexoDeodoro .desc,
+body.pqMapaOlimpico .desc,
+body.portoMaravilha .desc,
+body.parqueMadureira .desc,
+body.miecimoSilva .desc {
+	clear: both;
+	margin: 23px 0 0 0;
+	width: auto;
+}
+
+body.riocentro .desc p,
+body.complexoDeodoro .desc p,
+body.pqMapaOlimpico .desc p {
+	color: #fff;
+}
+
+.barra .faixaAzul,
+.deodoro .faixaVerde,
+.maracana .faixaLaranja {
+	margin: 70px 0 64px;
+}
+
+.faixaAzul {
+	background-color: #3398d7;
+	display: flex;
+	margin: 568px 0 64px;
+	min-height: 475px;
+	width: 100%;
+}
+.faixaLaranja {
+	background-color: #f17830;
+	display: flex;
+	margin: 258px 0 64px;
+	min-height: 475px;
+	width: 100%;
+}
+.faixaRoxa {
+	background-color: #6657a5;
+	display: flex;
+	margin: 295px 0 64px;
+	min-height: 475px;
+	width: 100%;
+}
+
+/*body.bgMaracana .faixaLaranja,
+body.bgMaracananzinho .faixaLaranja {
+	margin: 290px 0 64px;
+}*/
+
+body.bgEstadioLagoa .faixaRoxa,
+body.bgMarinaGloria .faixaRoxa {
+	margin: 409px 0 64px;
+}
+body.bgArenaVoleiPraia .faixaRoxa {
+	margin: 429px 0 64px;
+}
+
+.faixaVerde {
+	background-color: #71bf43;
+	display: flex;
+	margin: 568px 0 64px;
+	min-height: 475px;
+	width: 100%;
+}
+
+.faixaLaranja .wrap {
+	margin: 0 auto;
+	padding-top: 32px;
+}
+
+.faixaLaranja h3 {
+	background: url('../images/icoLocalizacao.png') no-repeat left top;
+	color: #1f437b;
+	display: block;
+	font-family: 'MuseoSans-900';
+	font-size: 32px;
+	line-height: 49px;
+	margin: 0 auto 53px;
+	min-height: 49px;
+	padding-left: 103px;
+	text-transform: uppercase;
+	width: 246px;
+}
+
+.faixaLaranja h3 a {
+	color: #1f437b;
+	text-decoration: none;
+}
+
+.faixaRoxa .wrap {
+	margin: 0 auto;
+	padding-top: 32px;
+}
+
+.faixaRoxa h3 {
+	background: url('../images/icoLocalizacao.png') no-repeat left top;
+	color: #1f437b;
+	display: block;
+	font-family: 'MuseoSans-900';
+	font-size: 32px;
+	line-height: 49px;
+	margin: 0 auto 53px;
+	min-height: 49px;
+	padding-left: 103px;
+	text-transform: uppercase;
+	width: 246px;
+}
+
+.faixaRoxa h3 a {
+	color: #1f437b;
+	text-decoration: none;
+}
+
+
+body.campoOlimpGolfe .faixaAzul,
+body.pontal .faixaAzul {
+	margin: 155px 0 64px;
+}
+
+/*
+* SEÇÕES HOME
+*/
+.sec1 {
+	background-color: #0d3985;
+	min-height: 566px;
+}
+.sec2 {
+	background-color: #3c96dc;
+	min-height: 193px;
+	padding-top: 43px;
+}
+.sec3 {
+	background-color: #6451ab;
+	min-height: 193px;
+	padding-top: 43px;
+}
+.sec4 {
+	background-color: #7fc311;
+	min-height: 193px;
+	padding-top: 43px;
+}
+.sec5 {
+	background-color: #e97a00;
+	min-height: 193px;
+	padding-top: 43px;
+}
+
+/*
+* HEADER
+*/
+header {
+	padding-top: 31px;
+	text-align: center;
+}
+
+header h1.logo {
+	/*background: url('../images/logo.png') no-repeat left top;*/
+	display: inline-block;
+	/*height: 176px;*/
+	margin-bottom: 66px;
+	/*text-align: center;
+	text-indent: -9999px;
+	width: 402px;*/
+}
+
+header h1.logo a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+header p {
+	font-size: 20px;
+	line-height: 23px;
+	margin: 0 auto 29px;
+}
+
+header p strong {
+	font-family: 'MuseoSans-900'
+}
+
+header h2 {
+	display: inline-block;
+	font-family: 'MuseoSans-300';
+	font-size: 30px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+/*
+* REGIÕES
+*/
+#accordion {
+	position: relative;
+}
+
+#accordion h2 a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+#accordion h2.barra {
+	/*background: url('../images/titRegBarra.png') no-repeat left top;*/
+	display: block;
+	cursor: pointer;
+	/*height: 99px;*/
+	margin: 0 auto;
+	text-align: center;
+	/*text-indent: -9999px;
+	width: 229px;*/
+}
+
+#accordion h2.copa {
+	/*background: url('../images/titRegCopa.png') no-repeat left top;*/
+	display: block;
+	cursor: pointer;
+	/*height: 99px;*/
+	margin: 0 auto;
+	text-align: center;	
+	/*text-indent: -9999px;
+	width: 485px;*/
+}
+
+#accordion h2.deod {
+	/*background: url('../images/titRegDeod.png') no-repeat left top;*/
+	display: block;
+	cursor: pointer;
+	/*height: 99px;*/
+	margin: 0 auto;
+	text-align: center;	
+	/*text-indent: -9999px;
+	width: 358px;*/
+}
+
+#accordion h2.mara {
+	/*background: url('../images/titRegMara.png') no-repeat left top;*/
+	display: block;
+	cursor: pointer;
+	/*height: 99px;*/
+	margin: 0 auto;
+	text-align: center;	
+	/*text-indent: -9999px;
+	width: 398px;*/
+}
+
+#accordion .seta,
+#accordion .seta.up {
+	background: url('../images/seta.png') no-repeat left top;
+	cursor: pointer;
+	display: inline-block;
+	height: 21px;
+	position: absolute;
+	right: 0;
+	top: 55px;
+	width: 40px;
+}
+
+#accordion .seta.up {
+	background: url('../images/seta_up.png') no-repeat left top;
+}
+
+div.accordion {
+	display: none;
+	overflow: hidden;
+}
+
+/*
+* Internas Regiões Home
+*/
+.col1,
+.col2,
+.col3 {
+	float: left;
+	text-align: center;
+	width: 228px;
+}
+
+.col1 a,
+.col2 a,
+.col3 a {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Região Barra */
+fieldset.parqueOlimpico  {
+	/*background: url('../images/bgParqueOlimp.png') no-repeat left top;*/
+	border: 2px solid #6db0e5;
+	display: inline-block;
+	float: left;
+	height: 555px;
+	margin: 46px 0 61px;
+	padding: 52px 0 33px;
+	position: relative;
+	width: 688px;
+}
+
+fieldset.parqueOlimpico legend,
+fieldset.complexoDeodoro legend,
+fieldset.riocentro_fieldset legend  {
+	font-family: 'MuseoSans-900';
+	font-size: 25px;
+	padding: 0 9px;
+	text-align: center;
+}
+
+.parqueOlimpico a.arenaCarioca1 {
+	background: url('../images/arenaCarioca.png') no-repeat left top;
+	height: 149px;
+	margin-bottom: 32px;
+	width: 193px;
+}
+
+.parqueOlimpico a.arenaCarioca2 {
+	background: url('../images/arenaCarioca2.png') no-repeat left top;
+	height: 149px;
+	margin-bottom: 32px;
+	width: 193px;
+}
+
+.parqueOlimpico a.arenaCarioca3 {
+	background: url('../images/arenaCarioca3.png') no-repeat left top;
+	height: 149px;
+	margin-bottom: 32px;
+	width: 193px;
+}
+
+.parqueOlimpico a.velodromo {
+	background: url('../images/velodromo.png') no-repeat left top;
+	height: 145px;
+	margin-bottom: 33px;
+	width: 180px;
+}
+
+.parqueOlimpico a.arenaFuturo {
+	background: url('../images/arenaFuturo.png') no-repeat left top;
+	height: 145px;
+	margin-bottom: 33px;
+	width: 182px;
+}
+
+.parqueOlimpico a.centroOlimpTenis {
+	background: url('../images/centroOlimpTenis.png') no-repeat left top;
+	height: 166px;
+	margin-bottom: 33px;
+	width: 180px;
+}
+
+.parqueOlimpico a.estadioAqua {
+	background: url('../images/estadioAqua.png') no-repeat left top;
+	height: 158px;
+	width: 180px;
+}
+
+.parqueOlimpico a.centroAqua {
+	background: url('../images/centroAqua.png') no-repeat left top;
+	height: 175px;
+	width: 182px;
+}
+
+.parqueOlimpico a.arenaOlimpRio {
+	background: url('../images/arenaOlimpRio.png') no-repeat left top;
+	height: 175px;
+	width: 182px;
+}
+
+a.campOlimpGolf {
+	background: url('../images/campOlimpGolf.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 176px;
+	margin: 97px 0 32px 48px;
+	width: 206px;
+}
+
+a.rioCentro {
+	background: url('../images/rioCentro.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 147px;
+	margin: 0 0 33px 76px;
+	width: 180px;
+}
+
+a.pontal {
+	background: url('../images/pontal.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 141px;
+	margin-left: 76px;
+	width: 182px;
+}
+
+/* Região Copacabana */
+a.estadioLagoa {
+	background: url('../images/estadioLagoa.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 181px;
+	margin: 47px 49px 71px 47px;
+	width: 193px;
+}
+
+a.marinaGloria {
+	background: url('../images/marinaGloria.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 177px;
+	margin: 47px 50px 71px 0;
+	width: 193px;
+}
+
+a.forteCopacabana {
+	background: url('../images/forteCopa.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 181px;
+	margin: 47px 56px 71px 0;
+	width: 193px;
+}
+
+a.arenaVoleiPraia {
+	background: url('../images/arenaVoleiPraia.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 174px;
+	margin: 47px 0 71px 0;
+	width: 179px;
+}
+
+/* Região Deodoro */
+fieldset.complexoDeodoro  {
+	/*background: url('../images/bgParqueOlimp.png') no-repeat left top;*/
+	border: 2px solid #9fd24d;
+	display: block;
+	height: 557px;
+	margin: 46px auto 61px;
+	padding: 52px 0 33px;
+	position: relative;
+	width: 688px;
+}
+
+a.centroOlimpBMX {
+	background: url('../images/centroOlimpBMX.png') no-repeat left top;
+	height: 172px;
+	margin-bottom: 34px;
+	width: 205px;
+}
+
+a.centroOlimpHoquei {
+	background: url('../images/centroOlimpHoquei.png') no-repeat left top;
+	height: 168px;
+	margin-bottom: 34px;
+	width: 179px;
+}
+
+a.estadioCanoaSla {
+	background: url('../images/estadioCanoaSla.png') no-repeat left top;
+	height: 164px;
+	margin-bottom: 34px;
+	width: 179px;
+}
+
+a.pistaMountain {
+	background: url('../images/pistaMountain.png') no-repeat left top;
+	height: 139px;
+	margin-bottom: 35px;
+	width: 179px;
+}
+
+a.arenaJuventude {
+	background: url('../images/arenaJuventude.png') no-repeat left top;
+	height: 147px;
+	margin-bottom: 35px;
+	width: 185px;
+}
+
+a.estadioDeod {
+	background: url('../images/estadioDeodoro.png') no-repeat left top;
+	height: 147px;
+	margin-bottom: 35px;
+	width: 183px;
+}
+
+a.centroAquaDeod {
+	background: url('../images/centroAquaDeod.png') no-repeat left top;
+	height: 170px;
+	width: 181px;
+}
+
+a.centroOlimpHipismo {
+	background: url('../images/centroOlimpHipismo.png') no-repeat left top;
+	height: 170px;
+	width: 179px;
+}
+
+a.centroOlimpTiro {
+	background: url('../images/centroOlimpTiro.png') no-repeat left top;
+	height: 164px;
+	width: 179px;
+}
+
+/* Região Maracanã */
+a.estadioOlimpEngenho {
+	background: url('../images/estadioOlimpEngenho.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 173px;
+	margin: 47px 60px 71px 47px;
+	width: 206px;
+}
+
+a.estadioMaracana {
+	background: url('../images/estadioMaracana.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 164px;
+	margin: 47px 73px 71px 0;
+	width: 179px;
+}
+
+a.maracanazinho {
+	background: url('../images/maracanazinho.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 139px;
+	margin: 47px 48px 61px 0;
+	width: 186px;
+}
+
+a.sambodromo {
+	background: url('../images/sambodromo.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 151px;
+	margin: 47px 0 71px 0;
+	width: 204px;
+}
+
+a.sambodromo {
+	background: url('../images/sambodromo.png') no-repeat left top;
+	display: block;
+	float: left;
+	height: 151px;
+	margin: 47px 0 71px 0;
+	width: 204px;
+}
+
+a.icoPavilhao2 {
+	background: url('../images/icoPavilhao2.png') no-repeat left top;
+	display: block;
+	height: 17px;
+	margin: 0 auto;
+	padding-top: 153px;
+	width: 228px;
+}
+
+a.icoPavilhao3 {
+	background: url('../images/icoPavilhao3.png') no-repeat left top;
+	display: block;
+	height: 17px;
+	margin: 0 auto;
+	padding-top: 158px;
+	width: 229px;
+}
+
+a.icoPavilhao4 {
+	background: url('../images/icoPavilhao4.png') no-repeat left top;
+	display: block;
+	height: 17px;
+	margin: 0 auto;
+	padding-top: 150px;
+	width: 214px;
+}
+
+a.icoPavilhao6 {
+	background: url('../images/icoPavilhao6.png') no-repeat left top;
+	display: block;
+	height: 17px;
+	margin: 0 auto;
+	padding-top: 145px;
+	width: 213px;
+}
+
+a.icoPavilhao2,
+a.icoPavilhao3,
+a.icoPavilhao4,
+a.icoPavilhao6 {
+	color: #fff;
+	font-family: 'MuseoSans-500';
+	font-size: 20px;
+	margin-bottom: 25px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*
+* MAPA
+*/
+.mapa {
+	background: #174787 url('../images/bgMapa.jpg') no-repeat center top;
+	font-family: 'MuseoSans-500';
+	font-size: 25px;
+	line-height: 30px;
+	margin: 0 auto;
+	min-height: 482px;
+	padding-top: 150px;
+	text-align: center;
+	width: 100%;
+}
+
+/* -- descreição local */
+.desc-local {
+	max-width: 265px;
+	font-family:"Museo-900";
+	font-size: 15px; line-height: 17px;
+	color: #000;
+	margin-top: 10px;
+}
+/* -- pin mapa */
+.pin-mapa, .pin-mapa--roxo {
+	background: transparent url('../images/pin-mapa.png') center center scroll;
+	width: 16px;
+	height: 29px;
+	display: block;
+	margin-right: 10px;
+	float: left;
+	margin-top: 2px;
+}
+
+.pin-mapa--laranja {
+	background: transparent url('../images/pin-mapa-laranja.png') center center scroll;
+	width: 16px;
+}
+
+span.pinGig {
+	background: url('../images/pinGig.png') no-repeat left top;
+	display: block;
+	height: 114px;
+	margin: 0 auto;
+	width: 62px;
+}
+
+a.btCliqueMapa {
+	background: url('../images/btClique.jpg') no-repeat left top;
+	display: block;
+	height: 67px;
+	margin: 0 auto 23px;
+	width: 313px;
+}
+
+
+.final {
+	background: #efefef;
+	color: #0d3985;
+	display: flex;
+	padding: 60px 0 30px;
+}
+
+.final h2 {
+	font-family: 'MuseoSans-900';
+	font-size: 70px;
+	margin-bottom: 32px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.final p {
+	font-family: 'MuseoSans-500';
+	font-size: 18px;
+	text-align: center;
+}
+
+ul.transportes {
+	display: flex;
+	margin: 46px auto 67px;
+	width: 672px;
+}
+
+ul.transportes li {
+	float: left;
+	font-family: 'MuseoSans-500';
+	font-size: 20px;
+	text-align: center;
+	/*padding-top: 129px;*/
+	width: 109px;
+}
+
+ul.transportes li span {
+	font-size: 12px;
+}
+
+ul.transportes li.tp1 {
+	/*background: url('../images/sprTransportes.png') no-repeat 27px 0;*/
+	margin-right: 52px;
+	width: 153px;
+}
+
+ul.transportes li.tp2 {
+	/*background: url('../images/sprTransportes.png') no-repeat -178px 0;*/
+	margin-right: 69px;
+}
+
+ul.transportes li.tp3 {
+	/*background: url('../images/sprTransportes.png') no-repeat -356px 0;*/
+	margin-right: 69px;
+}
+
+ul.transportes li.tp4 {
+	/*background: url('../images/sprTransportes.png') no-repeat -534px 0;*/
+	/*margin-right: 34px;*/
+}
+
+ul.transportes li.tp5 {
+	/*background: url('../images/sprTransportes.png') no-repeat -677px 0;*/
+	width: 170px;
+	display:none;
+}
+
+.cards {
+	/*background: url('../images/imgCards.png') no-repeat left top;*/
+	clear: both;
+	display: block;
+	height: 160px;
+	margin: 0 auto 117px;
+	position: relative;
+	width: 886px;
+}
+
+.cards fieldset {
+	border: 2px solid #b6c1d4;
+	height: 105px;
+	padding: 20px 0 31px 36px;
+}
+
+.cards fieldset p {
+	float: left;
+	text-align: left;
+	width: 310px;
+}
+
+.cards legend {
+	font-family: 'MuseoSans-900';
+	font-size: 25px;
+	padding: 0 9px;
+}
+
+.cards fieldset img {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.perm_proi {
+	background: url('../images/bgPermiProib.png') no-repeat center bottom;
+	height: 143px;
+	margin: 0 auto 36px;
+	width: 645px;
+}
+
+.perm_proi p {
+	font-family: 'MuseoSans-500';
+	font-size: 18px;
+	margin: 0 auto;	
+	text-align: center;
+	width: 415px;
+}
+
+.permitidos,
+.proibidos {
+	float: left;
+	width: 445px;
+}
+
+.permitidos li,
+.proibidos li {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.permitidos li.titulo,
+.proibidos li.titulo {
+	display: none;
+}
+
+.permitidos li p,
+.proibidos li p {
+	color: #000000;
+	float: left;
+	font-family: 'MuseoSans-500';
+	font-size: 20px;
+	line-height: 22px;
+	margin-top: 16px;
+	text-align: left;
+	width: 380px;
+}
+
+.permitidos li.item1 span,
+.permitidos li.item2 span,
+.permitidos li.item3 span,
+.permitidos li.item4 span,
+.permitidos li.item5 span,
+.permitidos li.item6 span {
+	float: left;
+	height: 54px;
+	margin-right: 12px;
+	width: 53px;
+}
+
+.permitidos li.item1 span {
+	background: url('../images/pmDoces.png') no-repeat center;
+}
+
+.permitidos li.item2 span {
+	background: url('../images/pmAlimentos.png') no-repeat center;
+}
+
+.permitidos li.item3 span {
+	background: url('../images/pmHigiene.png') no-repeat center;
+}
+
+.permitidos li.item4 span {
+	background: url('../images/pmCarrinhoBB.png') no-repeat center;
+}
+
+.permitidos li.item5 span {
+	background: url('../images/pmGuardaChuva.png') no-repeat center;
+}
+
+.permitidos li.item6 span {
+	background: url('../images/pmGarrafaPlastica.png') no-repeat center;
+}
+
+.bull {
+	background: url('../images/bullets.png') no-repeat left top;
+	float: left;
+	height: 667px;
+	margin: 0 47px;
+	width: 6px;
+}
+
+.proibidos li.item1 span,
+.proibidos li.item2 span,
+.proibidos li.item3 span,
+.proibidos li.item4 span,
+.proibidos li.item5 span,
+.proibidos li.item6 span,
+.proibidos li.item7 span,
+.proibidos li.item8 span,
+.proibidos li.item9 span,
+.proibidos li.item10 span {
+	float: left;
+	height: 54px;
+	margin-right: 12px;
+	width: 53px;	
+}
+
+
+.proibidos li.item1 span {
+	background: url('../images/pbPauDeSelfie.png') no-repeat center;
+}
+
+.proibidos li.item2 span {
+	background: url('../images/pbBebidas.png') no-repeat center;
+}
+
+.proibidos li.item3 span {
+	background: url('../images/pbCartazes.png') no-repeat center;
+}
+
+.proibidos li.item4 span {
+	background: url('../images/pbObjetos.png') no-repeat center;
+}
+
+.proibidos li.item5 span {
+	background: url('../images/pbPatins.png') no-repeat center;
+}
+
+.proibidos li.item6 span {
+	background: url('../images/pbCapacete.png') no-repeat center;
+}
+
+.proibidos li.item7 span {
+	background: url('../images/pbAnimais.png') no-repeat center;
+}
+
+.proibidos li.item8 span {
+	background: url('../images/pbArmasFogo.png') no-repeat center;
+}
+
+.proibidos li.item9 span {
+	background: url('../images/pbFogos.png') no-repeat center;
+}
+
+.proibidos li.item10 span {
+	background: url('../images/pbArmasBrancas.png') no-repeat center;
+}
+
+/*
+* Páginas Internas
+*/
+body.pontal {
+	background: #ffffff url('../images/bgs/bgPontal.jpg') no-repeat center top;
+}
+
+body.campoOlimpGolfe {
+	background: #ffffff url('../images/bgs/bgCampoOlimpGolfe.jpg') no-repeat center top;
+}
+
+body.arenaCarioca1 {
+	background: #ffffff url('../images/bgs/bgArenaCarioca1.jpg') no-repeat center top;
+}
+
+body.arenaCarioca2 {
+	background: #ffffff url('../images/bgs/bgArenaCarioca2.jpg') no-repeat center top;
+}
+
+body.arenaCarioca3 {
+	background: #ffffff url('../images/bgs/bgArenaCarioca3.jpg') no-repeat center top;
+}
+
+body.arenaFuturo {
+	background: #ffffff url('../images/bgs/bgArenaFuturo.jpg') no-repeat center top;
+}
+
+body.arenaRio {
+	background: #ffffff url('../images/bgs/bgArenaRio.jpg') no-repeat center top;
+}
+
+body.centroAqua {
+	background: #ffffff url('../images/bgs/bgCentroAquatico.jpg') no-repeat center top;
+}
+
+body.centroTenis {
+	background: #ffffff url('../images/bgs/bgCentroTenis.jpg') no-repeat center top;
+}
+
+body.estadioAqua {
+	background: #ffffff url('../images/bgs/bgEstadioAqua.jpg') no-repeat center top;
+}
+
+body.velodromo {
+	background: #ffffff url('../images/bgs/bgVelodromo.jpg') no-repeat center top;
+}
+
+body.pavilhao2 {
+	background: #ffffff url('../images/bgs/bgPavilhao2.jpg') no-repeat center top;
+}
+
+body.pavilhao3 {
+	background: #ffffff url('../images/bgs/bgPavilhao3.jpg') no-repeat center top;
+}
+
+body.pavilhao4 {
+	background: #ffffff url('../images/bgs/bgPavilhao4.jpg') no-repeat center top;
+}
+
+body.pavilhao6 {
+	background: #ffffff url('../images/bgs/bgPavilhao6.jpg') no-repeat center top;
+}
+
+body.riocentro {
+	background: #ffffff url('../images/bgs/bgRiocentro.jpg') no-repeat center top;
+}
+
+body.complexoDeodoro {
+	background: #ffffff url('../images/bgs/bgComplexoDeodoro.jpg') no-repeat center top;
+}
+
+body.pqMapaOlimpico {
+	background: #ffffff url('../images/bgs/bgParqueOlimpico.jpg') no-repeat center top;
+}
+
+body.portoMaravilha {
+	background: #ffffff url('../images/bgs/bgPortoMaravilha.jpg') no-repeat center top;
+}
+
+body.parqueMadureira {
+	background: #ffffff url('../images/bgs/bgParqueMadureira.jpg') no-repeat center top;
+}
+
+body.miecimoSilva {
+	background: #ffffff url('../images/bgs/bgMiecimoSilva.jpg') no-repeat center top;
+}
+body.estadioLagoa {
+	background: #ffffff url('../images/bgs/bgEstadioLagoa.png') no-repeat center top;
+}
+
+.wrap {
+	display: block;
+	margin: 34px auto 0;
+	padding-left: 21px;
+	position: relative;
+	width: 1003px;
+}
+
+.barra .wrap,
+.deodoro .wrap,
+.maracana .wrap,
+.parqueMadureira .wrap,
+.miecimoSilva .wrap,
+.portoMaravilha .wrap {min-height: 696px}
+
+.barra .rodape .wrap,
+.deodoro .rodape .wrap,
+.maracana .rodape .wrap,
+.copacabana .rodape .wrap,
+.miecimoSilva .rodape .wrap,
+.parqueMadureira .rodape .wrap,
+.portoMaravilha .rodape .wrap {min-height: auto;}
+
+.barra .rodape p.nota,
+.riocentro .rodape p.nota,
+.copacabana p.nota,
+.deodoro .rodape p.nota,
+.maracana .rodape p.nota,
+.parqueMadureira .rodape p.nota,
+.miecimoSilva .rodape p.nota,
+.portoMaravilha .rodape p.nota { color:#000000; display: block; margin: 30px 0; text-align: center;}
+
+.arenaFuturo .wrap p.nota,
+.velodromo .wrap p.nota,
+.estadioAqua .wrap p.nota,
+.pavilhao2 .wrap p.nota,
+.pavilhao3 .wrap p.nota,
+.pavilhao4 .wrap p.nota,
+.pavilhao6 .wrap p.nota { margin: 80px 0 30px}
+.centroTenis .wrap p.nota,
+.centroAqua .wrap p.nota,
+.arenaRio .wrap p.nota { margin: 100px 0 30px}
+
+.miecimoSilva p.nota,
+.parqueMadureira p.nota,
+.portoMaravilha p.nota {margin: 440px 0 0;}
+
+.portoMaravilha .obsHora {
+	top:648px;
+}
+
+/* Calendários */
+.calendPontal {
+	background: url('../images/calendPontal.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 295px;
+	width: 209px;
+}
+
+.calendGolfe {
+	background: url('../images/calendGolfe.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 221px;
+	position: absolute;
+	top: 253px;
+	width: 209px;
+}
+
+.calendArena1 {
+	background: url('../images/calendArena1.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}
+
+.calendArena2 {
+	background: url('../images/calendArena2.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}
+
+.calendArena3 {
+	background: url('../images/calendArena3.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}
+
+.calendArenaFuturo {
+	background: url('../images/calendArenaFuturo.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}
+
+.calendArenaRio {
+	background: url('../images/calendArenaRio.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendCentroAqua {
+	background: url('../images/calendCentroAqua.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 222px;
+	width: 209px;
+}
+
+.calendCentroTenis {
+	background: url('../images/calendCentroTenis.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendEstadioAqua {
+	background: url('../images/calendEstadioAqua.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendVelodromo {
+	background: url('../images/calendVelodromo.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendPavilhao3 {
+	background: url('../images/calendPavilhao3.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendPavilhao4 {
+	background: url('../images/calendPavilhao4.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendPavilhao6 {
+	background: url('../images/calendPavilhao6.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendEstadioLagoa {
+	background: url('../images/calendEstadioLagoa.png') no-repeat left top;
+	display: block;
+	width: 209px;
+	height: 183px;
+	left: 219px;
+	position: absolute;
+	top: 214px;
+}
+
+body.portoMaravilha a.bitly,
+body.parqueMadureira a.bitly,
+body.miecimoSilva a.bitly {
+	color: #073f82;
+	text-decoration: none;
+}
+body.portoMaravilha a.bitly:hover,
+body.parqueMadureira a.bitly:hover,
+body.miecimoSilva a.bitly:hover {
+	text-decoration: underline;
+}
+
+.wrap {
+	display: block;
+	margin: 34px auto 0;
+	padding-left: 21px;
+	position: relative;
+	width: 1003px;
+}
+
+/*.calendPontal {
+	background: url('../images/calendPontal.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 221px;
+	position: absolute;
+	top: 225px;
+	width: 209px;
+}
+
+.calendGolfe {
+	background: url('../images/calendGolfe.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 221px;
+	position: absolute;
+	top: 253px;
+	width: 209px;
+}*/
+
+/*.calendArena1 {
+	background: url('../images/calendArena1.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}
+
+.calendArena2 {
+	background: url('../images/calendArena2.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}
+
+.calendArena3 {
+	background: url('../images/calendArena3.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}*/
+
+.calendArenaFuturo {
+	background: url('../images/calendArenaFuturo.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}
+
+/*.calendArenaRio {
+	background: url('../images/calendArenaRio.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}*/
+
+/*.calendCentroAqua {
+	background: url('../images/calendCentroAqua.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 194px;
+	width: 209px;
+}*/
+
+/*.calendCentroTenis {
+	background: url('../images/calendCentroTenis.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}*/
+
+.calendEstadioAqua {
+	background: url('../images/calendEstadioAqua.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendVelodromo {
+	background: url('../images/calendVelodromo.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendPavilhao2 {
+	background: url('../images/calendPavilhao2.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendPavilhao3 {
+	background: url('../images/calendPavilhao3.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendPavilhao4 {
+	background: url('../images/calendPavilhao4.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 223px;
+	width: 209px;
+}
+
+.calendPavilhao6 {
+	background: url('../images/calendPavilhao6.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 214px;
+	width: 209px;
+}
+
+.calendPortoMaravilha {
+	background: url('../images/calendPortoMaravilha.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 249px;
+	position: absolute;
+	top: 213px;
+	width: 209px;
+}
+
+.calendParqueMadureira {
+	background: url('../images/calendParqueMadureira.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 249px;
+	position: absolute;
+	top: 213px;
+	width: 209px;
+}
+
+.calendMiecimoSilva {
+	background: url('../images/calendMiecimoSilva.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 249px;
+	position: absolute;
+	top: 213px;
+	width: 209px;
+}
+
+.modalidades {
+	float: left;
+}
+
+.modalidades li {
+	float: left;
+	height: 97px;
+	margin-right: 14px;
+	text-indent: -9999px;
+	width: 73px;
+}
+
+.modalidades li.ciclismo {
+	background: url('../images/sprInternas.png') 0 -35px;
+    margin: 0 0 0 227px;
+}
+
+.modalidades li.marcha-atletica {
+	background: url('../images/sprInternas.png') -87px -35px;
+	clear: both;
+    margin: 10px 0 0 227px;
+}
+
+.modalidades li.golfe {
+	background: url('../images/sprInternas.png') -167px -35px;
+	margin-left: 106px;
+	margin-right: 0;
+	margin-top: 53px;
+}
+
+.modalidades li.basquete {
+	background: url('../images/sprInternas.png') -252px -35px;
+	margin-left: 227px;
+	margin-top: 110px;
+}
+
+/*.icoLocal {
+	background: url('../images/sprInternas.png') 0 -337px;
+	display: block;
+	height: 139px;
+	margin: 111px 0 0 200px;
+	width: 229px;
+}*/
+
+.modalidades li.judo {
+	background: url('../images/sprInternas.png') -340px -35px;
+	margin-left: 227px;
+	margin-right: 0;
+	width: 73px;
+}
+
+.modalidades li.lutaOlimp {
+	background: url('../images/sprInternas.png') -424px -35px;
+	clear: both;
+	height: 88px;
+	margin-left: 227px;
+	margin-right: 0;	
+	width: 77px;
+}
+
+.modalidades li.esgrima {
+	background: url('../images/sprInternas.png') -523px -35px;
+	height: 88px;
+	margin-left: 227px;
+	margin-right: 0;
+	width: 73px;
+}
+
+.modalidades li.taek {
+	background: url('../images/sprInternas.png') -618px -35px;
+	clear: both;
+	height: 87px;
+	margin: 10px 0 0 227px;
+	width: 73px;
+}
+
+.modalidades li.hand {
+	background: url('../images/sprInternas.png') -717px -35px;
+	height: 87px;
+	margin-left: 227px;
+	margin-right: 0;
+	width: 73px;
+}
+
+.modalidades li.ginaArtistica {
+	background: url('../images/sprInternas.png') -908px -35px;
+	display: inline-block;
+	height: 100px;
+	margin-left: 227px;
+	margin-right: 0;
+	width: 73px;
+}
+
+.modalidades li.ginaRitmica {
+	background: url('../images/sprInternas.png') -814px -35px;
+	clear: both;
+	display: inline-block;
+	height: 100px;
+	margin: 10px 0 0 227px;
+	width: 73px;
+}
+
+.modalidades li.ginaTrampolim {
+	background: url('../images/sprInternas.png') -1002px -35px;
+	display: inline-block;
+	height: 100px;
+	margin: 10px 0 0 10px;
+	width: 73px;
+}
+
+.modalidades li.nado {
+	background: url('../images/modNado.png') no-repeat left top;
+	display: inline-block;
+	height: 97px;
+	margin: 10px 0 0 10px;
+	width: 75px;
+}
+
+.modalidades li.salto {
+	background: url('../images/modSalto.png') no-repeat left top;
+	display: inline-block;
+	height: 96px;
+	margin: 10px 0 0 227px;
+	width: 73px;
+}
+
+.modalidades li.polo {
+	background: url('../images/modPolo.png') no-repeat left top;
+	clear: both;
+	display: inline-block;
+	height: 90px;
+	margin: 10px 0 0 227px;
+	width: 78px;
+}
+
+.modalidades li.tenis {
+	background: url('../images/modTenis.png') no-repeat left top;
+	display: inline-block;
+	height: 90px;
+	margin: 10px 0 0 227px;
+	width: 78px;
+}
+
+.modalidades li.tenisMesa {
+	background: url('../images/modTenisMesa.png') no-repeat left top;
+	display: inline-block;
+	height: 88px;
+	margin: 0 0 0 227px;
+	width: 78px;
+}
+
+.modalidades li.levantamentoPeso {
+	background: url('../images/modLevantamentoPeso.png') no-repeat left top;
+	display: inline-block;
+	height: 101px;
+	margin: 0 0 0 227px;
+	width: 80px;
+}
+
+.modalidades li.natacao {
+	background: url('../images/modNatacao.png') no-repeat left top;
+	display: inline-block;
+	height: 89px;
+	margin: 0 0 0 227px;
+	width: 74px;
+}
+
+.modalidades li.ciclismoPista {
+	background: url('../images/modCiclismo.png') no-repeat left top;
+	display: inline-block;
+	height: 98px;
+	margin-left: 227px;
+	margin-top: 110px;
+	width: 73px;
+}
+
+.modalidades li.badminton {
+	background: url('../images/modBadminton.png') no-repeat left top;
+	display: inline-block;
+	height: 88px;
+	margin: 0 0 0 227px;
+	width: 78px;
+}
+
+.modalidades li.boxe {
+	background: url('../images/modBoxe.png') no-repeat left top;
+	display: inline-block;
+	height: 88px;
+	margin: 0 0 0 227px;
+	width: 78px;
+}
+
+.shows {
+	background: url('../images/shows.png') no-repeat left top;
+	display: inline-block;
+	height: 78px;
+	left: 21px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 366px;
+	width: 68px;
+}
+
+.showsPiro {
+	background: url('../images/showsPiro.png') no-repeat left top;
+	display: inline-block;
+	height: 86px;
+	left: 21px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 468px;
+	width: 67px;
+}
+
+.foodTrucks {
+	background: url('../images/foodTrucks.png') no-repeat left top;
+	display: inline-block;
+	height: 78px;
+	left: 105px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 366px;
+	width: 68px;
+}
+
+.transmLive {
+	background: url('../images/transmLive.png') no-repeat left top;
+	display: inline-block;
+	height: 86px;
+	left: 105px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 468px;
+	width: 68px;
+}
+
+.progInfantil {
+	background: url('../images/progInfantil.png') no-repeat left top;
+	display: inline-block;
+	height: 88px;
+	left: 105px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 366px;
+	width: 67px;
+}
+
+.alimentacao {
+	background: url('../images/alimentacao.png') no-repeat left top;
+	display: inline-block;
+	height: 77px;
+	left: 21px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 468px;
+	width: 67px;
+}
+
+body.parqueMadureira .shows,
+body.parqueMadureira .progInfantil,
+body.miecimoSilva .shows,
+body.miecimoSilva .progInfantil {
+	top: 314px;
+}
+
+body.parqueMadureira .alimentacao,
+body.parqueMadureira .transmLive,
+body.miecimoSilva .alimentacao,
+body.miecimoSilva .transmLive {
+	top: 416px;
+}
+
+body.campoOlimpGolfe .icoLocal {
+	/*background: url('../images/sprInternas.png') -238px -337px;*/
+	display: block;
+	height: 139px;
+	margin: 133px 0 0 200px;
+	width: 229px;
+}
+
+body.arenaCarioca1 .icoLocal {
+	/*background: url('../images/sprInternas.png') -653px -508px;*/
+	display: block;
+	height: 216px;
+	margin: 279px 0 0 0;
+	width: 352px;
+}
+
+body.arenaCarioca2 .icoLocal {
+	/*background: url('../images/sprInternas.png') -653px -803px;*/
+	display: block;
+	height: 221px;
+	margin: 279px 0 0 0;
+	width: 352px;
+}
+
+body.arenaCarioca3 .icoLocal {
+	/*background: url('../images/sprInternas.png') -653px -1100px;*/
+	display: block;
+	height: 220px;
+	margin: 279px 0 0 0;
+	width: 352px;
+}
+
+body.arenaFuturo .icoLocal {
+	/*background: url('../images/sprInternas.png') -1070px -508px;*/
+	display: block;
+	height: 189px;
+	margin: 237px 0 0 63px;
+	width: 304px;
+}
+
+body.arenaRio .icoLocal {
+	/*background: url('../images/icoArenaRio.png') no-repeat left top;*/
+	display: block;
+	height: 200px;
+	margin: 222px 0 0 63px;
+	width: 304px;
+}
+
+body.centroAqua .icoLocal {
+	/*background: url('../images/icoCentroAqua.png') no-repeat left top;*/
+	display: block;
+	height: 189px;
+	margin: 237px 0 0 63px;
+	width: 303px;
+}
+
+body.centroTenis .icoLocal {
+	/*background: url('../images/icoCentroTenis.png') no-repeat left top;*/
+	display: block;
+	height: 194px;
+	margin: 237px 0 0 63px;
+	width: 306px;
+}
+
+body.estadioAqua .icoLocal {
+	/*background: url('../images/icoEstadioAqua.png') no-repeat left top;*/
+	display: block;
+	height: 208px;
+	margin: 237px 0 0 63px;
+	width: 304px;
+}
+
+body.velodromo .icoLocal {
+	/*background: url('../images/icoVelodromo.png') no-repeat left top;*/
+	display: block;
+	height: 192px;
+	margin: 237px 0 0 63px;
+	width: 305px;
+}
+
+body.pontal .icoLocal {
+	/*background: url('../images/icoVelodromo.png') no-repeat left top;*/
+	display: block;
+    height: 140px;
+    margin: 204px 0 0 63px;
+    width: 230px;
+}
+
+body.pavilhao2 .icoLocal {
+	/*background: url('../images/icoPavilhao2.png') no-repeat left top;*/
+	display: block;
+	height: 192px;
+	margin: 237px 0 0 63px;
+	width: 305px;
+}
+
+body.pavilhao3 .icoLocal {
+	/*background: url('../images/icoPavilhao3.png') no-repeat left top;*/
+	display: block;
+	height: 192px;
+	margin: 237px 0 0 63px;
+	width: 305px;
+}
+
+body.pavilhao4 .icoLocal {
+	/*background: url('../images/icoPavilhao4.png') no-repeat left top;*/
+	display: block;
+	height: 192px;
+	margin: 237px 0 0 63px;
+	width: 305px;
+}
+
+body.pavilhao6 .icoLocal {
+	/*background: url('../images/icoPavilhao6.png') no-repeat left top;*/
+	display: block;
+	height: 192px;
+	margin: 237px 0 0 63px;
+	width: 305px;
+}
+
+body.portoMaravilha .icoLocal {
+	background: url('../images/icoPortoMaravilha.png') no-repeat left top;
+	display: block;
+	height: 176px;
+	left: 211px;
+	margin: 0;
+	position: absolute;
+	top: 426px;
+	width: 250px;
+}
+
+body.parqueMadureira .icoLocal {
+	background: url('../images/icoParqueMadureira.png') no-repeat left top;
+	display: block;
+	height: 176px;
+	left: 211px;
+	margin: 0;
+	position: absolute;
+	top: 426px;
+	width: 250px;
+}
+
+body.miecimoSilva .icoLocal {
+	background: url('../images/icoMiecimoSilva.png') no-repeat left top;
+	display: block;
+	height: 176px;
+	left: 211px;
+	margin: 0;
+	position: absolute;
+	top: 426px;
+	width: 250px;
+}
+
+body.arenaRio a.voltar,
+body.estadioAqua a.voltar {
+	margin:0 0 61px 0;
+}
+
+body.centroAqua a.voltar,
+body.centroTenis a.voltar {
+	margin-bottom: 28px;
+}
+
+body.bgEstadioLagoa a.voltar,
+body.deodoro a.voltar,
+body.maracana a.voltar,
+body.copacabana a.voltar {
+	margin-bottom: 40px;
+}
+
+.obsHora {
+	left: 21px;
+	line-height: 20px;
+	position: absolute;
+	top: 582px;
+	width: 584px;
+}
+
+.maracana .obsHora {
+	width: 521px;
+}
+
+.bgEngenhao .obsHora {
+	top: 600px;
+}
+
+.obsHora span {
+	background: url('../images/sprInternas.png') -9px -508px;
+	display: inline-block;
+	float: left;
+	height: 40px;
+	margin-right: 15px;
+	width: 34px;
+}
+
+.obsHora--laranja span {
+	background: url('../images/laranja-relogio.png') no-repeat center center scroll;
+}
+
+.obsHora p {
+	color: #073f82;
+	font-family: 'MuseoSans-500';
+	font-size: 15px;
+}
+
+body.miecimoSilva .obsHora {
+	left: 21px;
+	line-height: 20px;
+	position: absolute;
+	top: 554px;
+	width: 584px;
+}
+
+body.miecimoSilva .obsHora span {
+	background: url('../images/sprInternas.png') -9px -508px;
+	display: inline-block;
+	float: left;
+	height: 43px;
+	margin-right: 15px;
+	width: 34px;
+}
+
+body.miecimoSilva .obsHora p {
+	color: #073f82;
+	font-family: 'MuseoSans-500';
+	font-size: 15px;
+}
+
+body.complexoDeodoro .obsHora {
+	display: inline-block;
+	left: 21px;
+	line-height: 20px;
+	position: absolute;
+	top: 400px;
+	width: 264px;
+}
+
+body.complexoDeodoro .obsHora span {
+	background: url('../images/obsHoraBranco.png') no-repeat left top;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	margin-right: 15px;
+	width: 17px;
+}
+
+body.complexoDeodoro .obsHora p {
+	color: #073f82;
+	font-family: 'MuseoSans-700';
+	font-size: 17px;
+	line-height: 22px;
+}
+
+body.pqMapaOlimpico .obsHora {
+	display: inline-block;
+	left: 21px;
+	line-height: 20px;
+	position: absolute;
+	top: 310px;
+	width: 264px;
+}
+
+body.pqMapaOlimpico .obsHora span {
+	background: url('../images/obsHoraAzul.png') no-repeat left top;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	margin-right: 15px;
+	width: 17px;
+}
+
+body.pqMapaOlimpico .obsHora p {
+	color: #073f82;
+	font-family: 'MuseoSans-700';
+	font-size: 17px;
+	line-height: 22px;
+}
+
+.faixaAzul .wrap,
+.faixaVerde .wrap,
+.faixaLaranja .wrap {
+	margin: 0 auto;
+	min-height: initial;
+	padding-top: 32px;
+}
+
+.faixaAzul h3,
+.faixaVerde h3 {
+	background: url('../images/icoLocalizacao.png') no-repeat left top;
+	color: #1f437b;
+	display: block;
+	font-family: 'MuseoSans-900';
+	font-size: 32px;
+	line-height: 49px;
+	margin: 0 auto 53px;
+	min-height: 49px;
+	padding-left: 103px;
+	text-transform: uppercase;
+	width: 246px;
+}
+
+.faixaAzul h3 a,
+.faixaVerde h3 a {
+	color: #1f437b;
+	text-decoration: none;
+}
+
+.barra .asd {
+	margin-left: 50px;
+}
+
+.barra .asd.nomargin {
+	margin-left: 0;
+}
+
+.deodoro .zn.nomargin {
+	margin-left: 0;
+}
+
+.barra .rod {
+	margin-left: 0;
+}
+
+.barra .iconesChegar,
+.deodoro .iconesChegar {
+	width: 892px;
+}
+
+.barra .air {
+	width: 240px;
+}
+
+.zn,
+.znj,
+.zs,
+.zo,
+.asd,
+.rod,
+.jcb,
+.air,
+.ba {
+	border-right: 1px solid #6ab4e2;
+	color: #fff;
+	float: left;
+	font-family: 'MuseoSans-900';
+	font-size: 18px;
+	text-align: center;
+}
+
+body.complexoDeodoro .asd,
+body.complexoDeodoro .zo,
+body.complexoDeodoro .zs,
+body.complexoDeodoro .rod,
+body.complexoDeodoro .air,
+body.complexoDeodoro .zn,
+body.complexoDeodoro .ba {
+	border-right: 1px solid #97d076;
+}
+
+body.pqMapaOlimpico .asd {
+	margin-left: 90px;
+}
+
+.zn {
+	margin-left: 40px;
+	width: 182px;
+}
+
+.znj {
+	width: 320px;
+}
+
+.zs {
+	width: 230px;
+}
+
+.zo {
+	width: 207px;
+}
+
+.ba {
+	width: 207px;
+}
+
+.asd {
+	width: 333px;
+}
+
+.rod {
+	margin-left: 40px;
+	width: 330px;
+}
+
+.jcb {
+	width: 327px;
+}
+
+.air {
+	width: 286px;
+}
+
+.noborder,
+body.deodoro .noborder,
+body.pqMapaOlimpico .noborder {
+	border-right: 0 none;
+}
+
+.deodoro .ba {
+	width: 119px;
+}
+
+.deodoro .rod {
+	margin-left: 75px;
+    width: 219px;
+}
+
+.margin {
+	clear: both;
+	display: block;
+	height: 47px;
+}
+
+body.complexoDeodoro .asd {
+	width: 333px;
+}
+
+body.complexoDeodoro .zs {
+	width: 259px;
+}
+
+body.complexoDeodoro .zo {
+	width: 157px;
+}
+
+body.complexoDeodoro .ba {
+	width: 110px;
+}
+
+body.complexoDeodoro .rod {
+	margin-left: 87px;
+	width: 245px;
+}
+
+body.complexoDeodoro .zn {
+	margin-left: 0;
+	width: 182px;
+}
+
+body.complexoDeodoro .air {
+	width: 261px;
+}
+
+
+.zn h4,
+.znj h4,
+.zs h4,
+.zo h4,
+.asd h4,
+.rod h4,
+.jcb h4,
+.air h4,
+.ba h4 {
+	margin-bottom: 18px;
+}
+
+.zn h4 a,
+.znj h4 a,
+.zs h4 a,
+.zo h4 a,
+.asd h4 a,
+.rod h4 a,
+.jcb h4 a,
+.air h4 a,
+.ba h4 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+span.brt,
+span.brt2,
+span.metro,
+span.trem,
+span.vlt,
+span.bus {
+	display: inline-block;
+	height: 78px;
+	text-indent: -9999px;
+	width: 60px;
+}
+
+span.bus {
+	height: 96px;
+}
+
+span.brt2 {
+	height: 94px;
+	width: 95px;
+}
+
+span.plus {
+	background: url('../images/sprInternas.png') no-repeat -6px -157px;
+	display: inline-block;
+	height: 56px;
+	text-indent: -9999px;	
+	width: 44px;
+}
+
+span.brt {
+	background: url('../images/sprInternas.png') no-repeat -237px -507px;
+}
+
+span.brt2 {
+	background: url('../images/sprInternas.png') no-repeat -1233px -1031px;
+}
+
+span.metro {
+	background: url('../images/sprInternas.png') no-repeat -163px -507px;
+}
+
+span.trem {
+	background: url('../images/sprInternas.png') no-repeat -87px -507px;
+}
+
+span.vlt {
+	background: url('../images/sprInternas.png') no-repeat -310px -507px;
+}
+
+span.bus {
+	background: url('../images/sprInternas.png') no-repeat -1249px -900px;
+}
+
+.tips h2 {
+	color: #1f437b;
+	display: block;
+	font-family: 'MuseoSans-900';
+	font-size: 32px;
+	margin-bottom: 29px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.tips .topics {
+	margin: 0 auto 50px;
+	overflow: hidden;
+	width: 600px;
+}
+
+.tips .topics li.item1 span,
+.tips .topics li.item2 span,
+.tips .topics li.item3 span,
+.tips .topics li.item4 span,
+.tips .topics li.item5 span,
+.tips .topics li.item6 span,
+.tips .topics li.item7 span,
+.tips .topics li.item8 span,
+.tips .topics li.item9 span,
+.tips .topics li.item10 span,
+.tips .topics li.item11 span,
+.tips .topics li.item12 span,
+.tips .topics li.item13 span {
+	display: inline-block;
+	float: left;
+	height: 37px;
+	width: 37px;	
+}
+
+.tips .topics li.item1,
+.tips .topics li.item2,
+.tips .topics li.item3,
+.tips .topics li.item4,
+.tips .topics li.item5,
+.tips .topics li.item6,
+.tips .topics li.item7,
+.tips .topics li.item8,
+.tips .topics li.item9,
+.tips .topics li.item10,
+.tips .topics li.item11,
+.tips .topics li.item12,
+.tips .topics li.item13 {
+	display: inline-block;
+	float: left;
+	margin-bottom: 6px;
+	min-height: 37px;
+}
+
+.tips .topics li.item1 span {
+	background: url('../images/icoHorario.png') no-repeat left top;
+}
+
+.tips .topics li.item2 span {
+	background: url('../images/icoClima.png') no-repeat left top;
+}
+
+.tips .topics li.item3 span {
+	background: url('../images/sprInternas.png') no-repeat -9px -670px;
+}
+
+.tips .topics li.item4 span {
+	background: url('../images/sprInternas.png') no-repeat -9px -732px;
+}
+
+.tips .topics li.item5 span {
+	background: url('../images/sprInternas.png') no-repeat -9px -795px;
+}
+
+.tips .topics li.item6 span {
+	background: url('../images/sprInternas.png') no-repeat -9px -858px;
+}
+
+.tips .topics li.item7 span {
+	background: url('../images/sprInternas.png') no-repeat -9px -921px;
+}
+
+.tips .topics li.item8 span {
+	background: url('../images/icoManterSilencio.png') no-repeat left top;
+}
+
+.tips .topics li.item9 span {
+	background: url('../images/sprInternas.png') no-repeat -9px -1221px;
+}
+
+.tips .topics li.item10 span {
+	background: url('../images/sprTransportes2.png') no-repeat 0 0;
+}
+
+.tips .topics li.item11 span {
+	background: url('../images/sprTransportes2.png') no-repeat 0 -61px;
+}
+
+.tips .topics li.item12 span {
+	background: url('../images/sprTransportes2.png') no-repeat 0 -123px;
+}
+
+.tips .topics li.item13 span {
+	background: url('../images/sprTransportes2.png') no-repeat 0 -185px;
+}
+
+.tips .topics li p {
+	color: #000;
+    display: block;	
+	font-family: 'MuseoSans-500';
+	font-size: 18px;
+	margin: 10px 0 0 44px;
+}
+
+.arenaCarioca1 .titInterna,
+.arenaCarioca2 .titInterna,
+.arenaCarioca3 .titInterna,
+.arenaFuturo .titInterna,
+.arenaRio .titInterna,
+.centroAqua .titInterna,
+.centroTenis .titInterna,
+.estadioAqua .titInterna,
+.velodromo .titInterna,
+.pavilhao2 .titInterna,
+.pavilhao3 .titInterna,
+.pavilhao4 .titInterna,
+.pavilhao6 .titInterna {
+	margin-bottom: 0;
+}
+
+.arenaCarioca1 .desc,
+.arenaCarioca2 .desc,
+.arenaCarioca3 .desc,
+.arenaFuturo .desc,
+.arenaRio .desc,
+.centroAqua .desc,
+.centroTenis .desc,
+.estadioAqua .desc,
+.velodromo .desc,
+.pavilhao2 .desc,
+.pavilhao3 .desc,
+.pavilhao4 .desc,
+.pavilhao6 .desc {
+	float: left;
+	margin: 25px 0 51px;
+	width: auto;
+}
+
+.arenaRio .desc,
+.centroAqua .desc,
+.centroTenis .desc,
+.estadioAqua .desc,
+.velodromo .desc,
+.pavilhao2 .desc,
+.pavilhao3 .desc,
+.pavilhao4 .desc,
+.pavilhao6 .desc {
+	margin: 25px 0 39px;
+}
+.pavilhao4 .desc,
+.pavilhao6 .desc,
+.centroAqua .desc {
+	width: 330px;
+}
+
+a.pavilhao2 {
+	display: inline-block;
+	height: 61px;
+	left: 655px;
+	position: absolute;
+	top: 97px;
+	width: 79px;
+}
+
+a.pavilhao3 {
+	display: inline-block;
+	height: 61px;
+	left: 528px;
+	position: absolute;
+	top: 145px;
+	width: 79px;
+}
+
+a.pavilhao4 {
+	display: inline-block;
+	height: 61px;
+	left: 426px;
+	position: absolute;
+	top: 224px;
+	width: 79px;
+}
+
+a.pavilhao6 {
+	display: inline-block;
+	height: 61px;
+	left: 556px;
+	position: absolute;
+	top: 290px;
+	width: 79px;
+}
+
+a.centroBMX {
+	display: inline-block;
+	height: 83px;
+	left: 621px;
+	position: absolute;
+	top: 6px;
+	width: 124px
+}
+
+a.estdCanoaSla {
+	display: inline-block;
+	height: 80px;
+	left: 469px;
+	position: absolute;
+	top: 90px;
+	width: 157px;
+}
+
+a.pistaMnt {
+	display: inline-block;
+	height: 79px;
+	left: 629px;
+	position: absolute;
+	top: 133px;
+	width: 127px;
+}
+
+a.arenaJuv {
+	display: inline-block;
+	height: 62px;
+	left: 657px;
+	position: absolute;
+	top: 247px;
+	width: 172px;
+}
+
+a.estadioOlimp {
+	display: inline-block;
+	height: 80px;
+	left: 333px;
+	position: absolute;
+	top: 327px;
+	width: 149px;
+}
+
+a.estadioDeodo {
+	display: inline-block;
+	height: 80px;
+	left: 553px;
+	position: absolute;
+	top: 322px;
+	width: 105px;
+}
+
+a.centroOliHoquei {
+	display: inline-block;
+	height: 81px;
+	left: 839px;
+	position: absolute;
+	top: 280px;
+	width: 145px;
+}
+
+a.centroAquaDeodo {
+	display: inline-block;
+	height: 80px;
+	left: 739px;
+	position: absolute;
+	top: 340px;
+	width: 140px;
+}
+
+a.centroOliHipismo {
+	display: inline-block;
+	height: 80px;
+	left: 596px;
+	position: absolute;
+	top: 510px;
+	width: 144px;
+}
+
+a.centroOliTenis {
+	display: inline-block;
+	height: 82px;
+	left: 401px;
+	position: absolute;
+	top: 179px;
+	width: 144px;
+}
+
+a.estdAqua {
+	display: inline-block;
+	height: 64px;
+	left: 27px;
+	position: absolute;
+	top: 367px;
+	width: 144px;
+}
+
+a.arnFuturo {
+	display: inline-block;
+	height: 81px;
+	left: 227px;
+	position: absolute;
+	top: 433px;
+	width: 78px;
+}
+
+a.arnCarioca1 {
+	display: inline-block;
+	height: 80px;
+	left: 320px;
+	position: absolute;
+	top: 374px;
+	width: 78px;
+}
+
+a.arnCarioca2 {
+	display: inline-block;
+	height: 80px;
+	left: 402px;
+	position: absolute;
+	top: 344px;
+	width: 78px;
+}
+
+a.arnCarioca3 {
+	display: inline-block;
+	height: 80px;
+	left: 474px;
+	position: absolute;
+	top: 310px;
+	width: 80px;
+}
+
+a.velOliRJ {
+	display: inline-block;
+	height: 83px;
+	left: 544px;
+	position: absolute;
+	top: 257px;
+	width: 139px;
+}
+
+a.arnOliRJ {
+	display: inline-block;
+	height: 85px;
+	left: 657px;
+	position: absolute;
+	top: 308px;
+	width: 133px;
+}
+
+a.pqAquaML {
+	display: inline-block;
+	height: 83px;
+	left: 843px;
+	position: absolute;
+	top: 301px;
+	width: 140px;
+}
+
+
+.iconesChegar {
+	margin: 0 auto;
+	width: 772px;
+}
+
+body.complexoDeodoro .iconesChegar {
+	margin: 0 auto;
+	width: 900px;
+}
+
+body.pqMapaOlimpico .iconesChegar {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+/* Região: Deodoro; */
+/* Arena da Juventude */
+.arenaJuventude a.arenaJuventude {
+	background: url('../images/arenaCarioca.png') no-repeat left top;
+	height: 149px;
+	margin-bottom: 32px;
+	width: 193px;
+}
+body.arenaJuventude {
+	background: #ffffff url('../images/bgs/bgArenaCarioca1.jpg') no-repeat center top;
+}
+body.arenaJuventude .icoLocal {
+	background: url('../images/sprInternas.png') -653px -508px;
+	display: block;
+	height: 216px;
+	margin: 279px 0 0 0;
+	width: 352px;
+}
+.arenaJuventude .titInterna {
+	margin-bottom: 0;
+}
+.arenaJuventude .desc {
+	float: left;
+	margin: 25px 0 23px;
+	width: auto;
+}
+.calendArenaJuventude {
+	background: url('../images/calendArena1.png') no-repeat left top;
+	display: block;
+	height: 183px;
+	left: 21px;
+	position: absolute;
+	top: 235px;
+	width: 209px;
+}
+body.arenaJuventude .modalidades li.basquete {
+	margin-top: 0;
+	margin-right: 0;
+}
+body.arenaJuventude .modalidades li.pentatlo-moderno {
+	background: url('../images/sprInternas.png') -252px -35px;
+	margin-left: -73px;
+	margin-top: 110px;
+}
+
+/* Região: Copacabana; */
+/* Arena do Vôlei de Praia */
+body.arenaVoleiPraia {
+	background: #ffffff url('../images/bgs/bgEstadioLagoa.png') no-repeat center top;
+}
+.calendArenaVoleiPraia {
+	display: block;
+	width: 209px;
+	height: 183px;
+	left: 219px;
+	position: absolute;
+	top: 214px;
+}
+.img-local{
+	left: 219px;
+	position: absolute;
+	top: 430px;
+}
+
+.como-chegar {
+	padding: 20px 0 30px;
+	margin: 348px 0 0;
+}
+.como-chegar h4 {
+	width: 100%;
+	text-transform: uppercase;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 24px;
+	font-family: 'MuseoSans-900';
+}
+.como-chegar h4:before {
+	content: '';
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 86px;
+	height: 49px;
+	display: block;
+	margin: 0 10px 0 0;
+}
+.como-chegar > div {
+	max-width: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.como-chegar > div > div {
+	padding: 0 10px;
+}
+.como-chegar .dois-trans {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 0 10px;
+	max-width: 215px;
+}
+.como-chegar hr {
+	background: rgba(255,255,255,0.5);
+	width: 2px;
+	height: 115px;
+	border: 0;
+}
+.como-chegar > div > div > span {
+	white-space: nowrap;
+	display: block;
+	width: 100%;
+	font-family: 'MuseoSans-700';
+	color: #fff;
+	text-align: center;
+	margin: 0 0 20px;
+}
+.copacabana .como-chegar {
+	background: #6657a5;
+}
+.maracana .como-chegar {
+	background: #f17830;
+}
+
+/* Dicas */
+.dicas {
+	width: 100%;
+	padding: 50px 0;
+}
+.dicas h4 {
+	width: 100%;
+	text-transform: uppercase;
+	color: #1f437b;
+	font-size: 24px;
+	font-family: 'MuseoSans-900';
+	text-align: center;
+}
+.dicas ul {
+	width: 560px;
+	margin: 0 auto;
+}
+.dicas ul li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	color: #000;
+	font-size: 16px;
+	font-family: 'MuseoSans-500';
+	margin: 5px 0;
+}
+.dicas ul li img {
+	margin: 0 10px 0 0;
+}
+
+/* Região: Maracanã; */
+/* Engenhão */
+body.engenhao {
+	background: #ffffff url('../images/bgs/bgEstadioLagoa.png') no-repeat center top;
+}
+.calendEngenhao {
+	background: url('../images/calendEstadioLagoa.png') no-repeat left top;
+	display: block;
+	width: 209px;
+	height: 183px;
+	left: 219px;
+	position: absolute;
+	top: 214px;
+}
+.engenhao .desc {
+	float: left;
+	width: 185px;
+	margin: 25px 0 51px;
+}
+.ico-engenhao {
+	display: block;
+	background: url('../images/ico-estadio-lagoa.png') center center no-repeat scroll;
+	width: 193px;
+	height: 118px;
+}
+.engenhao .ico-engenhao {
+	position: absolute;
+	left: 226px;
+	bottom: -100px;
+}
+.engenhao .desc {
+	float: left;
+	width: 185px;
+	margin: 25px 0 51px;
+}
+.engenhao .desc span {
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	top: 0;
+	left: 0;
+}
+
+/**BGS grandes*/
+body.bgArenaVoleiPraia {
+	background: #ffffff url('../images/bgs/bgArenaVoleiPraia.jpg') no-repeat center top;
+}
+body.bgMarinaGloria {
+	background: #ffffff url('../images/bgs/bgMarinaGloria.jpg') no-repeat center top;
+}
+body.bgEngenhao {
+	background: #ffffff url('../images/bgs/bgEngenhao.jpg') no-repeat center top;
+}
+body.bgMaracana {
+	background: #ffffff url('../images/bgs/bgMaracana.jpg') no-repeat center top;
+}
+body.bgMaracananzinho {
+	background: #ffffff url('../images/bgs/bgMaracananzinho.jpg') no-repeat center top;
+}
+body.bgSambodromo {
+	background: #ffffff url('../images/bgs/bgSambodromo.jpg') no-repeat center top;
+}
+body.bgCentroBmx {
+	background: #ffffff url('../images/bgs/bgCentroBmx.jpg') no-repeat center top;
+}
+body.bgCentroHoquei {
+	background: #ffffff url('../images/bgs/bgCentroHoquei.jpg') no-repeat center top;
+}
+body.bgCanoagemSlalom {
+	background: #ffffff url('../images/bgs/bgCanoagemSlalom.jpg') no-repeat center top;
+}
+body.bgMountainBike {
+	background: #ffffff url('../images/bgs/bgMountainBike.jpg') no-repeat center top;
+}
+body.bgArenaJuventude {
+	background: #ffffff url('../images/bgs/bgArenaJuventude.jpg') no-repeat center top;
+}
+body.bgDeodoro {
+	background: #ffffff url('../images/bgs/bgDeodoro.jpg') no-repeat center top;
+}
+body.bgCentroAquaticoDeodoro {
+	background: #ffffff url('../images/bgs/bgCentroAquaticoDeodoro.jpg') no-repeat center top;
+}
+body.bgCentroHipismo {
+	background: #ffffff url('../images/bgs/bgCentroHipismo.jpg') no-repeat center top;
+}
+body.bgCentroTiro {
+	background: #ffffff url('../images/bgs/bgCentroTiro.jpg') no-repeat center top;
+}
+body.bgEstadioLagoa {
+	background: #ffffff url('../images/bgs/bgEstadioLagoa.jpg') no-repeat center top;
+}
+body.bgForteCopa {
+	background: #ffffff url('../images/bgs/bgForteCopa.jpg') no-repeat center top;
+}
+
+/** CLASSE PADRONIZADA DEORODO*/
+.deodoro .desc{width: 344px;}
+.deodoro .calendario{float:left;margin-right: 25px;}
+.deodoro ul.modalidades{float:left;}
+.deodoro ul.modalidades li{margin-bottom:25px;}
+.deodoro ul.modalidades li img{display: block}
+.deodoro .icoLocal{
+    position: relative;
+    left: -260px;
+    top: 230px;
+    background: none;
+    margin: 0;
+}
+
+
+.copacabana .desc-local{margin-bottom: 20px}
+.copacabana .desc{width: 200px;margin:10px 10px 0 0;}
+.copacabana .calendario{float:left;margin-top: 10px;}
+.copacabana ul.modalidades{float:left;text-align: center}
+.copacabana ul.modalidades li{display: inline-block;margin:10px;}
+.copacabana ul.modalidades li img{display: block}
+.copacabana .icoLocal {
+    position: relative;
+    left: -240px;
+    top: 228px;
+    background: none;
+    margin: 0;
+}
+
+.maracana .desc-local{margin-bottom: 20px}
+.maracana .desc{width: 200px;margin:10px 10px 0 0;}
+.maracana .calendario{float:left;margin-top: 10px;}
+.maracana ul.modalidades{float:left;text-align: center}
+.maracana ul.modalidades li{display: inline-block;margin:10px;}
+.maracana ul.modalidades li img{display: block}
+.maracana .icoLocal{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    background: none;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* MAPA */
+.mapaFull {
+	background: url('../images/bgMapaFinal.jpg') no-repeat center top;
+}
+
+.mapaFull .wrap {
+	margin: 0 auto;
+	padding-left: 0; 
+	width: 1024px;
+}
+
+.mapaFull a {
+	text-indent: -9999px;
+}
+
+.mapaFull a.index {
+	display: inline-block;
+	height: 105px;
+	left: 720px;
+	position: absolute;
+	top: 20px;
+	width: 243px;
+}
+
+.mapaFull a.livesite1,
+.mapaFull a.livesite2,
+.mapaFull a.livesite3,
+.mapaFull a.deodoro,
+.mapaFull a.pontalPin,
+.mapaFull a.campoOlimpGolfe,
+.mapaFull a.riocentroPin,
+.mapaFull a.parqueolimpPin,
+.mapaFull a.engenhao,
+.mapaFull a.maracana,
+.mapaFull a.maracanazinhoPin,
+.mapaFull a.sambodromoPin,
+.mapaFull a.estadioLagoaPin,
+.mapaFull a.forteCopacabanaPin,
+.mapaFull a.arenaVoleiPin,
+.mapaFull a.marinaGloriaPin {
+	display: inline-block;
+	height: 40px;
+	position: absolute;
+	width: 23px	
+}
+
+.mapaFull a.livesite1 {
+	left: 115px;
+	top: 33px;
+}
+
+.mapaFull a.livesite2 {
+	left: 115px;
+	top: 33px;
+}
+
+.mapaFull a.livesite2 {
+	left: 637px;
+	top: 212px;
+}
+
+.mapaFull a.livesite3 {
+	left: 873px;
+	top: 406px;
+}
+
+.mapaFull a.deodoro {
+	left: 525px;
+	top: 148px;
+}
+
+.mapaFull a.pontalPin {
+	left: 21px;
+	top: 284px;
+}
+
+.mapaFull a.campoOlimpGolfe {
+	left: 219px;
+	top: 334px;
+}
+
+.mapaFull a.riocentroPin {
+	left: 274px;
+	top: 274px;
+}
+
+.mapaFull a.parqueolimpPin {
+	left: 305px;
+	top: 313px;
+}
+
+.mapaFull a.engenhao {
+	left: 670px;
+	top: 377px;
+}
+
+.mapaFull a.maracana {
+	left: 763px;
+	top: 372px;
+}
+
+.mapaFull a.maracanazinhoPin {
+	left: 787px;
+	top: 420px;
+}
+
+.mapaFull a.sambodromoPin {
+	left: 836px;
+	top: 446px;
+}
+
+.mapaFull a.estadioLagoaPin {
+	left: 660px;
+	top: 502px;
+}
+
+.mapaFull a.forteCopacabanaPin {
+	left: 691px;
+	top: 545px;
+}
+
+.mapaFull a.arenaVoleiPin {
+	left: 765px;
+	top: 543px;
+}
+
+.mapaFull a.marinaGloriaPin {
+	left: 881px;
+	top: 494px;
+}
+
+
+.mapaFull a.livesite1:hover {
+	background: url('../images/titPins/liveSite.png') no-repeat center top;
+	height: 68px;
+	left: 98px;
+	top: 4px;
+	width: 57px;
+}
+
+.mapaFull a.livesite2:hover {
+	background: url('../images/titPins/liveSite.png') no-repeat center top;
+	height: 68px;
+	left: 620px;
+	top: 183px;
+	width: 57px;
+}
+
+.mapaFull a.livesite3:hover {
+	background: url('../images/titPins/liveSite.png') no-repeat center top;
+	height: 68px;
+	left: 855px;
+	top: 377px;
+	width: 57px;
+}
+
+.mapaFull a.deodoro:hover {
+	background: url('../images/titPins/deodoro.png') no-repeat center top;
+	height: 54px;
+	left: 515px;
+	top: 134px;
+	width: 50px;
+}
+
+.mapaFull a.pontalPin:hover {
+	background: url('../images/titPins/pontal.png') no-repeat center top;
+	height: 54px;
+	left: 15px;
+	top: 270px;
+	width: 37px;
+}
+
+.mapaFull a.campoOlimpGolfe:hover {
+	background: url('../images/titPins/campoOlimpGolfe.png') no-repeat center top;
+	height: 64px;
+	left: 187px;
+	top: 310px;
+	width: 92px;
+}
+
+.mapaFull a.riocentroPin:hover {
+	background: url('../images/titPins/rioCentro.png') no-repeat center top;
+	height: 57px;
+	left: 254px;
+	top: 257px;
+	width: 61px;
+}
+
+.mapaFull a.parqueolimpPin:hover {
+	background: url('../images/titPins/parqueOlimpico.png') no-repeat center top;
+	height: 67px;
+	left: 291px;
+	top: 286px;
+	width: 52px;
+}
+
+.mapaFull a.engenhao:hover {
+	background: url('../images/titPins/engenhao.png') no-repeat center top;
+	height: 67px;
+	left: 636px;
+	top: 350px;
+	width: 93px;
+}
+
+.mapaFull a.maracana:hover {
+	background: url('../images/titPins/maracana.png') no-repeat center top;
+	height: 58px;
+	left: 748px;
+	top: 353px;
+	width: 55px;
+}
+
+.mapaFull a.maracanazinhoPin:hover {
+	background: url('../images/titPins/maracanazinho.png') no-repeat center top;
+	height: 58px;
+	left: 758px;
+	top: 403px;
+	width: 85px;
+}
+
+.mapaFull a.sambodromoPin:hover {
+	background: url('../images/titPins/sambodromo.png') no-repeat center top;
+	height: 58px;
+	left: 812px;
+	top: 429px;
+	width: 76px;
+}
+
+.mapaFull a.estadioLagoaPin:hover {
+	background: url('../images/titPins/estadioLagoa.png') no-repeat center top;
+	height: 70px;
+	left: 645px;
+	top: 473px;
+	width: 51px;
+}
+
+.mapaFull a.forteCopacabanaPin:hover {
+	background: url('../images/titPins/forteCopacabana.png') no-repeat center top;
+	height: 70px;
+	left: 668px;
+	top: 516px;
+	width: 70px;
+}
+
+.mapaFull a.arenaVoleiPin:hover {
+	background: url('../images/titPins/arenaVoleiPraia.png') no-repeat center top;
+	height: 70px;
+	left: 740px;
+	top: 513px;
+	width: 79px;
+}
+
+.mapaFull a.marinaGloriaPin:hover {
+	background: url('../images/titPins/marinaGloria.png') no-repeat center top;
+	height: 70px;
+	left: 867px;
+	top: 464px;
+	width: 52px;
+}
+
+@media only screen and (max-width: 768px) {
+	.content {
+		width: 90%;
+	}
+
+	header h1 img {
+		height: auto;
+		width: 90%;
+	}
+
+	.bull {
+		display: none;
+	}
+
+	ul.transportes {
+		display: block;
+		width: 100%;
+	}
+
+	ul.transportes li {
+		display: block;
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	ul.transportes li:last-child {
+		margin-bottom: 0;
+	}
+
+	ul.transportes li.tp1,
+	ul.transportes li.tp2,
+	ul.transportes li.tp3,
+	ul.transportes li.tp4,
+	ul.transportes li.tp5 {
+		margin-right: 0;
+		width: 25%;
+	}
+
+	.cards {
+		height: auto;
+		margin: 0 auto 67px;
+		width: 100%;
+	}
+
+	.cards fieldset {
+		height: 180px;
+		padding: 20px 20px 31px 20px;
+	}
+
+	.cards fieldset p {
+		margin-bottom: 15px;
+		width: 100%;
+	}
+
+	.cards fieldset img {
+		bottom: 0;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		right: inherit;
+		top: inherit;
+		width: 515px;    
+	}
+
+	.perm_proi {
+		width: 100%;
+	}
+
+	.permitidos,
+	.proibidos {
+		width: 100%;
+	}
+
+	.permitidos {
+		margin-bottom: 30px;
+	}
+
+	.permitidos li,
+	.proibidos li {
+		width: 100%;
+	}
+
+	.permitidos li p,
+	.proibidos li p {
+		font-size: 1em;
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.content {
+		width: 90%;
+	}
+
+	header h1 img {
+		height: auto;
+		width: 90%;
+	}
+
+	.bull {
+		display: none;
+	}
+
+	.sec2 {
+		min-height: 167px;
+	}
+
+	.sec3 {
+		min-height: 137px;
+	}
+
+	.sec4 {
+		min-height: 167px;
+	}
+
+	.sec5 {
+		min-height: 147px;
+	}
+
+	#accordion h2.barra,
+	#accordion h2.copacabana,
+	#accordion h2.deod,
+	#accordion h2.mara {
+		display: inline-block;
+		width: 100%;
+	}
+
+	#accordion h2.barra img,
+	#accordion h2.copa img,
+	#accordion h2.deod img {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	#accordion h2.copa img,
+	#accordion h2.deod img,
+	#accordion h2.mara img {
+		width: 100%;
+	}
+
+	#accordion .seta, #accordion .seta.up {
+		background: url('../images/seta.png') no-repeat left top;
+		display: block;
+		height: 21px;
+		margin: 0 auto;
+		position: relative;
+		top: 20px;
+		width: 40px;
+	}
+
+	#accordion .seta.up {
+		background: url('../images/seta_up.png') no-repeat left top;
+	}
+
+	fieldset.parqueOlimpico,
+	fieldset.complexoDeodoro,
+	fieldset.riocentro_fieldset {
+		box-sizing: border-box;
+		float: none;
+		height: auto;
+		width: 100%;
+	}
+
+	.col1, .col2, .col3 {
+		float: none;
+		margin: 0 auto 32px;
+		width: 100%;
+	}
+
+	.col3 {
+		margin-bottom: 0;
+	}
+
+	a.campOlimpGolf,
+	a.rioCentro,
+	a.pontal,
+	a.estadioLagoa,
+	a.marinaGloria,
+	a.forteCopacabana,
+	a.arenaVoleiPraia,
+	a.estadioOlimpEngenho,
+	a.estadioMaracana,
+	a.maracanazinho,
+	a.sambodromo {
+		background-position: center;
+		float: none;
+		margin: 0 auto 32px;
+		width: 100%;
+	}
+
+	a.estadioLagoa,
+	a.estadioOlimpEngenho {
+		margin: 64px auto 32px;
+	}
+
+	.mapa {
+		display: none;
+	}
+
+	.final {
+		padding: 30px 0;
+	}
+
+	.final h2 {
+		font-size: 2.7em;
+	}
+
+	ul.transportes {
+		display: block;
+		width: 100%;
+	}
+
+	ul.transportes li {
+		display: block;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	ul.transportes li:last-child {
+		margin-bottom: 0;
+	}
+
+	ul.transportes li.tp1,
+	ul.transportes li.tp2,
+	ul.transportes li.tp3,
+	ul.transportes li.tp4,
+	ul.transportes li.tp5 {
+		float: left;
+		margin-right: 0;
+		min-height: 151px;
+		width: 50%;
+	}
+
+	.cards {
+		height: auto;
+		margin: 0 auto 67px;
+		width: 100%;
+	}
+
+	.cards fieldset {
+		height: 180px;
+		padding: 20px 20px 31px 20px;
+	}
+
+	.cards fieldset p {
+		width: 100%;
+	}
+
+	.cards fieldset img {
+		bottom: 0;
+		right: 0;
+		top: inherit;
+		width: 100%;
+	}
+
+	.perm_proi {
+		background: none;
+		height: auto;
+		width: 100%;
+	}
+
+	.perm_proi p {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.permitidos,
+	.proibidos {
+		width: 100%;
+	}
+
+	.permitidos li,
+	.proibidos li {
+		width: 100%;
+	}
+
+	.permitidos li.titulo,
+	.proibidos li.titulo {
+		display: block;		
+		font-size: 20px;
+		font-family: 'MuseoSans-700';
+	}
+
+	.permitidos li p,
+	.proibidos li p {
+		font-size: 1em;
+		width: 77%;
+	}
+
+	.barra .calendArena1,
+	.barra .calendArena2,
+	.barra .calendArena3 {
+		background-position: center top;
+		float: none;
+		left: inherit;
+		margin: 10px auto 0;
+		position: relative;
+		text-align: center;
+		top: inherit;
+		width: 100%;
+	}
+
+	.barra .modalidades {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	.judo,
+	.lutaOlimp {
+		left: 0;
+		position: relative;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 435px) {
+	.content {
+		width: 90%;
+	}
+
+	header h1 img {
+		height: auto;
+		width: 90%;
+	}
+
+	.bull {
+		display: none;
+	}
+
+	.sec2 {
+		min-height: 187px;
+	}
+
+	.sec3 {
+		min-height: 156px;
+	}
+
+	.sec4 {
+		min-height: 177px;
+	}
+
+	.sec5 {
+		min-height: 167px;
+	}
+
+	#accordion h2.barra,
+	#accordion h2.copacabana,
+	#accordion h2.deod,
+	#accordion h2.mara {
+		display: inline-block;
+		width: 100%;
+	}
+
+	#accordion h2.barra img,
+	#accordion h2.copa img,
+	#accordion h2.deod img {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	#accordion h2.copa img,
+	#accordion h2.deod img,
+	#accordion h2.mara img {
+		width: 100%;
+	}
+
+	#accordion .seta, #accordion .seta.up {
+		background: url('../images/seta.png') no-repeat left top;
+		display: block;
+		height: 21px;
+		margin: 0 auto;
+		position: relative;
+		top: 20px;
+		width: 40px;
+	}
+
+	#accordion .seta.up {
+		background: url('../images/seta_up.png') no-repeat left top;
+	}
+
+	fieldset.parqueOlimpico,
+	fieldset.complexoDeodoro,
+	fieldset.riocentro_fieldset {
+		box-sizing: border-box;
+		float: none;
+		height: auto;
+		width: 100%;
+	}
+
+	.col1, .col2, .col3 {
+		float: none;
+		margin: 0 auto 32px;
+		width: 100%;
+	}
+
+	.col3 {
+		margin-bottom: 0;
+	}
+
+	a.campOlimpGolf,
+	a.rioCentro,
+	a.pontal,
+	a.estadioLagoa,
+	a.marinaGloria,
+	a.forteCopacabana,
+	a.arenaVoleiPraia,
+	a.estadioOlimpEngenho,
+	a.estadioMaracana,
+	a.maracanazinho,
+	a.sambodromo {
+		background-position: center;
+		float: none;
+		margin: 0 auto 32px;
+		width: 100%;
+	}
+
+	a.rioCentro {display: none;}
+
+	a.estadioLagoa,
+	a.estadioOlimpEngenho {
+		margin: 64px auto 32px;
+	}
+
+	.mapa {
+		display: none;
+	}
+
+	.final {
+		padding: 30px 0;
+	}
+
+	.final h2 {
+		font-size: 2.7em;
+	}
+
+	ul.transportes {
+		display: block;
+		width: 100%;
+	}
+
+	ul.transportes li {
+		display: block;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	ul.transportes li:last-child {
+		margin-bottom: 0;
+	}
+
+	ul.transportes li.tp1,
+	ul.transportes li.tp2,
+	ul.transportes li.tp3,
+	ul.transportes li.tp4,
+	ul.transportes li.tp5 {
+		float: left;
+		margin-right: 0;
+		min-height: 151px;
+		width: 50%;
+	}
+
+	.cards {
+		height: auto;
+		margin: 0 auto 67px;
+		width: 100%;
+	}
+
+	.cards fieldset {
+		height: 180px;
+		padding: 20px 20px 31px 20px;
+	}
+
+	.cards fieldset p {
+		width: 100%;
+	}
+
+	.cards fieldset img {
+		bottom: 0;
+		right: 0;
+		top: inherit;
+		width: 100%;
+	}
+
+	.perm_proi {
+		background: none;
+		height: auto;
+		width: 100%;
+	}
+
+	.perm_proi p {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.permitidos,
+	.proibidos {
+		width: 100%;
+	}
+
+	.permitidos li,
+	.proibidos li {
+		width: 100%;
+	}
+
+	.permitidos li.titulo,
+	.proibidos li.titulo {
+		display: block;		
+		font-size: 20px;
+		font-family: 'MuseoSans-700';
+	}
+
+	.permitidos li p,
+	.proibidos li p {
+		font-size: 1em;
+		width: 77%;
+	}
+
+	body.arenaCarioca1,
+	body.arenaCarioca2,
+	body.arenaCarioca3,
+	body.velodromo,
+	body.estadioAqua,
+	body.arenaFuturo,
+	body.centroAqua,
+	body.centroTenis,
+	body.arenaRio,
+	body.campoOlimpGolfe,
+	body.pontal,
+	body.pavilhao2,
+	body.pavilhao3,
+	body.pavilhao4,
+	body.pavilhao6,
+	body.copacabana,
+	body.deodoro,
+	body.maracana {
+		background-position:left top;
+		width: 100%;
+	}
+
+	.barra .wrap,
+	.copacabana .wrap,
+	.deodoro .wrap,
+	.maracana .wrap {
+		min-height: 585px;
+		padding-left: inherit;
+		width: 90%;
+	}
+
+	.barra a.voltar,
+	.deodoro a.voltar,
+	.maracana a.voltar,
+	body.estadioAqua a.voltar {
+		margin: 0 0 34px 0;
+	}
+
+	.barra .clear,
+	.barra .margin,
+	.deodoro .clear,
+	.deodoro .margin,
+	.maracana .clear,
+	.maracana .margin {display: none;}
+
+	.barra .desc,
+	.copacabana .desc,
+	.deodoro .desc,
+	.maracana .desc {
+		float: none;
+		margin: 25px 0;
+		width: 100%;
+	}
+
+	.barra .calendArena1,
+	.barra .calendArena2,
+	.barra .calendArena3,
+	.barra .calendVelodromo,
+	.barra .calendEstadioAqua,
+	.barra .calendArenaFuturo,
+	.barra .calendCentroAqua,
+	.barra .calendCentroTenis,
+	.barra .calendArenaRio,
+	.barra .calendGolfe,
+	.barra .calendPontal,
+	.barra .calendPavilhao2,
+	.barra .calendPavilhao3,
+	.barra .calendPavilhao4,
+	.barra .calendPavilhao6,
+	.copacabana .calendario,
+	.deodoro .calendario,
+	.maracana .calendario {
+		background-position: center top;
+		float: none;
+		left: inherit;
+		margin: 10px auto 0;
+		position: relative;
+		text-align: center;
+		top: inherit;
+		width: 100%;
+	}
+
+	.copacabana .calendario,
+	.deodoro .calendario,
+	.maracana .calendario {
+		display: inherit;
+		margin: 10px auto 0;
+		width: auto;
+	}
+
+	.barra .modalidades,
+	.deodoro ul.modalidades,
+	.maracana ul.modalidades,
+	body.bgEstadioLagoa .modalidades,
+	body.bgMarinaGloria .modalidades,
+	body.bgForteCopa .modalidades,
+	body.bgArenaVoleiPraia .modalidades {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	.barra .modalidades li,
+	body.bgEstadioLagoa .modalidades li,
+	body.bgMarinaGloria .modalidades li,
+	body.bgForteCopa .modalidades li,
+	body.bgArenaVoleiPraia .modalidades li {
+		margin: 0 15px 0 0;
+	}
+
+	.judo,
+	.lutaOlimp {
+		left: 0;
+		position: relative;
+		top: 0;
+	}
+
+	body.arenaCarioca1 .icoLocal,
+	body.arenaCarioca2 .icoLocal,
+	body.arenaCarioca3 .icoLocal,
+	body.velodromo .icoLocal,
+	body.estadioAqua .icoLocal,
+	body.arenaFuturo .icoLocal,
+	body.centroAqua .icoLocal,
+	body.centroTenis .icoLocal,
+	body.arenaRio .icoLocal,
+	body.campoOlimpGolfe .icoLocal,
+	body.pontal .icoLocal,
+	body.pavilhao2 .icoLocal,
+	body.pavilhao3 .icoLocal,
+	body.pavilhao4 .icoLocal,
+	body.pavilhao6 .icoLocal,
+	body.copacabana .icoLocal,
+	body.deodoro .icoLocal,
+	body.maracana .icoLocal  {
+		clear: both;
+		display: block;
+		float: left;
+		height: auto;
+		margin: 50px 0 0 0;
+		position: relative;
+		text-align: center;
+		width: 100%;
+	}
+
+	body.estadioAqua .icoLocal,
+	body.centroAqua .icoLocal,
+	body.centroTenis .icoLocal,
+	body.arenaRio .icoLocal,
+	body.pontal .icoLocal,
+	body.pavilhao2 .icoLocal,
+	body.pavilhao3 .icoLocal,
+	body.pavilhao4 .icoLocal,
+	body.pavilhao6 .icoLocal,
+	body.copacabana .icoLocal,
+	body.deodoro .icoLocal,
+	body.maracana .icoLocal {
+		margin: 50px 0;
+	}
+	
+	body.arenaRio .icoLocal,
+	body.campoOlimpGolfe .icoLocal {
+		margin: 20px 0;
+	}
+
+	.icoLocal img {
+		height: auto;
+		width: 80%;
+	}
+
+	body.deodoro img.icoLocal,
+	body.maracana img.icoLocal {
+		float: none;
+		height: auto;
+		left:0;
+		margin: 20px auto 0;
+		top: 0;
+		width: 80%;
+	}
+
+	.barra .faixaAzul,
+	.deodoro .faixaVerde,
+	body.bgEstadioLagoa .faixaRoxa,
+	body.bgMarinaGloria .faixaRoxa,
+	body.bgForteCopa .faixaRoxa,
+	body.bgArenaVoleiPraia .faixaRoxa {
+		margin: 70px 0 50px;
+	}
+
+	.faixaAzul h3,
+	.faixaRoxa h3,
+	.faixaVerde h3,
+	.faixaLaranaj h3 {
+		background-position: center top;
+		padding-left: 0;
+		padding-top: 49px;
+		text-align: center;		
+		width: 100%;
+	}
+
+	.barra .iconesChegar,
+	.deodoro .iconesChegar {
+		width: 100%;
+	}
+
+	.barra .asd,
+	.barra .zs,
+	.barra .zo,
+	.barra .rod,
+	.barra .znj,
+	.barra .air,
+	.barra .zn,
+	.barra .jcb,
+	.copacabana .asd,
+	.copacabana .zs,
+	.copacabana .zo,
+	.copacabana .rod,
+	.copacabana .znj,
+	.copacabana .air,
+	.copacabana .zn,
+	.copacabana .jcb,
+	.deodoro .asd,
+	.deodoro .zs,
+	.deodoro .zo,
+	.deodoro .rod,
+	.deodoro .znj,
+	.deodoro .air,
+	.deodoro .zn,
+	.deodoro .jcb,
+	.deodoro .ba,
+	.maracana .asd,
+	.maracana .zs,
+	.maracana .zo,
+	.maracana .rod,
+	.maracana .znj,
+	.maracana .air,
+	.maracana .zn,
+	.maracana .jcb,
+	.maracana .ba {
+		border-right: 0 none;		
+		box-sizing: border-box;
+		margin: 0 0 25px 0;
+		width: 100%;
+	}
+
+	.obsHora {
+		display: inline-block;
+		left: 0;
+		margin: 25px 0;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+
+	body.copacabana .icoLocal {
+		left: 0;
+		top: 0;
+		background: none;
+	}
+
+	.maracana .obsHora {
+		left: 0;
+		margin: 25px 0;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+
+	.obsHora span {
+		height: 61px;
+	}
+
+	.tips .topics {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.content {
+		width: 90%;
+	}
+
+	header h1 img {
+		height: auto;
+		width: 90%;
+	}
+
+	.bull {
+		display: none;
+	}
+
+	.sec2 {
+		min-height: 147px;
+	}
+
+	.sec3 {
+		min-height: 117px;
+	}
+
+	.sec4 {
+		min-height: 137px;
+	}
+
+	.sec5 {
+		min-height: 127px;
+	}
+
+	#accordion h2.barra,
+	#accordion h2.copacabana,
+	#accordion h2.deod,
+	#accordion h2.mara {
+		display: inline-block;
+		width: 100%;
+	}
+
+	#accordion h2.barra img,
+	#accordion h2.copa img,
+	#accordion h2.deod img {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	#accordion h2.copa img,
+	#accordion h2.deod img,
+	#accordion h2.mara img {
+		width: 100%;
+	}
+
+	#accordion .seta, #accordion .seta.up {
+		background: url('../images/seta.png') no-repeat left top;
+		display: block;
+		height: 21px;
+		margin: 0 auto;
+		position: relative;
+		top: 20px;
+		width: 40px;
+	}
+
+	#accordion .seta.up {
+		background: url('../images/seta_up.png') no-repeat left top;
+	}
+
+	.mapa {
+		display: none;
+	}
+
+	.final {
+		padding: 30px 0;
+	}
+
+	.final h2 {
+		font-size: 2.7em;
+	}
+
+	ul.transportes {
+		display: block;
+		width: 100%;
+	}
+
+	ul.transportes li {
+		display: block;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	ul.transportes li:last-child {
+		margin-bottom: 0;
+	}
+
+	ul.transportes li.tp1,
+	ul.transportes li.tp2,
+	ul.transportes li.tp3,
+	ul.transportes li.tp4,
+	ul.transportes li.tp5 {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.cards {
+		height: auto;
+		margin: 0 auto 67px;
+		width: 100%;
+	}
+
+	.cards fieldset {
+		height: 180px;
+		padding: 20px 20px 31px 20px;
+	}
+
+	.cards fieldset p {
+		width: 100%;
+	}
+
+	.cards fieldset img {
+		bottom: 0;
+		right: 0;
+		top: inherit;
+		width: 100%;
+	}
+
+	.perm_proi {
+		background: none;
+		height: auto;
+		width: 100%;
+	}
+
+	.permitidos,
+	.proibidos {
+		width: 100%;
+	}
+
+	.permitidos li,
+	.proibidos li {
+		width: 100%;
+	}
+
+	.permitidos li.titulo,
+	.proibidos li.titulo {
+		display: block;		
+		font-size: 20px;
+		font-family: 'MuseoSans-700';
+	}
+
+	.permitidos li p,
+	.proibidos li p {
+		font-size: 1em;
+		width: 77%;
+	}
+
+	body.arenaCarioca1,
+	body.arenaCarioca2,
+	body.arenaCarioca3,
+	body.velodromo,
+	body.estadioAqua,
+	body.arenaFuturo,
+	body.centroAqua,
+	body.centroTenis,
+	body.arenaRio,
+	body.campoOlimpGolfe,
+	body.pontal,
+	body.pavilhao2,
+	body.pavilhao3,
+	body.pavilhao4,
+	body.pavilhao6,
+	body.copacabana,
+	body.deodoro,
+	body.maracana {
+		background-position:left top;
+		width: 100%;
+	}
+
+	.barra .wrap,
+	.copacabana .wrap,
+	.deodoro .wrap {
+		min-height: 585px;
+		padding-left: inherit;
+		width: 90%;
+	}
+
+	.barra a.voltar,
+	.copacabana a.voltar,
+	.deodoro a.voltar,
+	.maracana a.voltar,
+	body.arenaRio a.voltar {
+		margin: 0 0 34px 0;
+	}
+
+	.barra .clear,
+	.barra .margin,
+	.copacabana .clear,
+	.copacabana .margin,
+	.deodoro .clear,
+	.deodoro .margin,
+	.maracana .clear,
+	.maracana .margin {display: none;}
+
+	.barra .desc,
+	.copacabana .desc,
+	.deodoro .desc,
+	.maracana .desc,
+	body.pontal .desc {
+		float: none;
+		margin: 25px 0;
+		width: 100%;
+	}
+
+	.barra .calendArena1,
+	.barra .calendArena2,
+	.barra .calendArena3,
+	.barra .calendVelodromo,
+	.barra .calendEstadioAqua,
+	.barra .calendArenaFuturo,
+	.barra .calendCentroAqua,
+	.barra .calendCentroTenis,
+	.barra .calendArenaRio,
+	.barra .calendGolfe,
+	.barra .calendPontal,
+	.barra .calendPavilhao2,
+	.barra .calendPavilhao3,
+	.barra .calendPavilhao4,
+	.barra .calendPavilhao6,
+	.copacabana .calendario,
+	.deodoro .calendario {
+		background-position: center top;
+		float: none;
+		left: inherit;
+		margin: 10px auto 0;
+		position: relative;
+		text-align: center;
+		top: inherit;
+		width: 100%;
+	}
+
+	.copacabana .calendario,
+	.deodoro .calendario {
+		display: inherit;
+		margin: 10px auto 0;
+		width: auto;
+	}
+
+	.barra .modalidades,
+	.deodoro ul.modalidades,
+	.maracana ul.modalidades,
+	body.bgEstadioLagoa .modalidades,
+	body.bgMarinaGloria .modalidades,
+	body.bgForteCopa .modalidades {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	.barra .modalidades li,
+	body.bgEstadioLagoa .modalidades li {
+		margin: 0 10px 0 0;
+	}
+
+	.judo,
+	.lutaOlimp {
+		left: 0;
+		position: relative;
+		top: 0;
+	}
+
+	body.arenaCarioca1 .icoLocal,
+	body.arenaCarioca2 .icoLocal,
+	body.arenaCarioca3 .icoLocal,
+	body.velodromo .icoLocal,
+	body.estadioAqua .icoLocal,
+	body.arenaFuturo .icoLocal,
+	body.centroAqua .icoLocal,
+	body.centroTenis .icoLocal,
+	body.arenaRio .icoLocal,
+	body.campoOlimpGolfe .icoLocal,
+	body.pontal .icoLocal,
+	body.pavilhao2 .icoLocal,
+	body.pavilhao3 .icoLocal,
+	body.pavilhao4 .icoLocal,
+	body.pavilhao6 .icoLocal,
+	body.copacabana .icoLocal,
+	body.deodoro .icoLocal,
+	body.maracana .icoLocal  {
+		clear: both;
+		display: block;
+		float: left;
+		height: auto;
+		margin: 20px 0 0 0;
+		position: relative;
+		text-align: center;
+		width: 100%;
+	}
+
+	body.estadioAqua .icoLocal,
+	body.centroAqua .icoLocal,
+	body.centroTenis .icoLocal,
+	body.arenaRio .icoLocal,
+	body.pontal .icoLocal,
+	body.pavilhao2 .icoLocal,
+	body.pavilhao3 .icoLocal,
+	body.pavilhao4 .icoLocal,
+	body.pavilhao6 .icoLocal,
+	body.copacabana .icoLocal,
+	body.deodoro .icoLocal,
+	body.maracana .icoLocal {
+		margin: 20px 0;
+	}
+
+	.icoLocal img {
+		height: auto;
+		width: 80%;
+	}
+
+	body.deodoro img.icoLocal,
+	body.maracana img.icoLocal {
+		float: none;
+		height: auto;
+		left:0;
+		margin: 20px auto 0;
+		top: 0;
+		width: 80%;
+	}
+
+	.barra .faixaAzul,
+	.deodoro .faixaVerde,
+	body.bgEstadioLagoa .faixaRoxa,
+	body.bgMarinaGloria .faixaRoxa,
+	body.bgForteCopa .faixaRoxa {
+		margin: 70px 0 50px;
+	}
+
+	.faixaAzul h3,
+	.faixaRoxa h3,
+	.faixaVerde h3,
+	.faixaLaranja h3 {
+		background-position: center top;
+		padding-left: 0;
+		padding-top: 49px;
+		text-align: center;		
+		width: 100%;
+	}
+
+	.barra .iconesChegar,
+	.deodoro .iconesChegar {
+		width: 100%;
+	}
+
+	.barra .asd,
+	.barra .zs,
+	.barra .zo,
+	.barra .rod,
+	.barra .znj,
+	.barra .air,
+	.barra .zn,
+	.barra .jcb,
+	.copacabana .asd,
+	.copacabana .zs,
+	.copacabana .zo,
+	.copacabana .rod,
+	.copacabana .znj,
+	.copacabana .air,
+	.copacabana .zn,
+	.copacabana .jcb,
+	.deodoro .asd,
+	.deodoro .zs,
+	.deodoro .zo,
+	.deodoro .rod,
+	.deodoro .znj,
+	.deodoro .air,
+	.deodoro .zn,
+	.deodoro .jcb,
+	.deodoro .ba,
+	.maracana .asd,
+	.maracana .zs,
+	.maracana .zo,
+	.maracana .rod,
+	.maracana .znj,
+	.maracana .air,
+	.maracana .zn,
+	.maracana .jcb,
+	.maracana .ba {
+		border-right: 0 none;		
+		box-sizing: border-box;
+		margin: 0 0 25px 0;
+		width: 100%;
+	}
+
+	.modalidades li.judo,
+	.modalidades li.natacao {
+		margin-right: 10px;
+	}
+	.modalidades li.lutaOlimp {
+		clear: none;
+	}
+
+	body.copacabana .icoLocal {
+		left: 0;
+		top: 0;
+		background: none;
+	}
+
+	.obsHora,
+	.maracana .obsHora {
+		left: 0;
+		margin: 25px 0;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+
+	.obsHora span {
+		height: 61px;
+	}
+
+	.tips .topics {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.content {
+		width: 90%;
+	}
+
+	header h1 img {
+		height: auto;
+		width: 90%;
+	}
+
+	.bull {
+		display: none;
+	}
+
+	.sec2 {
+		min-height: 147px;
+	}
+
+	.sec3 {
+		min-height: 117px;
+	}
+
+	.sec4 {
+		min-height: 137px;
+	}
+
+	.sec5 {
+		min-height: 127px;
+	}
+
+	#accordion h2.barra,
+	#accordion h2.copacabana,
+	#accordion h2.deod,
+	#accordion h2.mara {
+		display: inline-block;
+		width: 100%;
+	}
+
+	#accordion h2.barra img,
+	#accordion h2.copa img,
+	#accordion h2.deod img {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	#accordion h2.copa img,
+	#accordion h2.deod img,
+	#accordion h2.mara img {
+		width: 100%;
+	}
+
+	#accordion .seta, #accordion .seta.up {
+		background: url('../images/seta.png') no-repeat left top;
+		display: block;
+		height: 21px;
+		margin: 0 auto;
+		position: relative;
+		top: 20px;
+		width: 40px;
+	}
+
+	#accordion .seta.up {
+		background: url('../images/seta_up.png') no-repeat left top;
+	}
+
+	.riocentro_fieldset {
+		border: 2px solid #6db0e5;
+		display: block;
+		height: 557px;
+		margin: 0 auto 61px;
+		padding: 52px 0 0;
+		position: relative;
+		width: 688px;
+	}
+
+	.mapa {
+		display: none;
+	}
+
+	.final {
+		padding: 30px 0;
+	}
+
+	.final h2 {
+		font-size: 2.7em;
+	}
+
+	ul.transportes {
+		display: block;
+		width: 100%;
+	}
+
+	ul.transportes li {
+		display: block;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	ul.transportes li:last-child {
+		margin-bottom: 0;
+	}
+
+	ul.transportes li.tp1,
+	ul.transportes li.tp2,
+	ul.transportes li.tp3,
+	ul.transportes li.tp4,
+	ul.transportes li.tp5 {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.cards {
+		height: auto;
+		margin: 0 auto 67px;
+		width: 100%;
+	}
+
+	.cards fieldset {
+		height: 180px;
+		padding: 20px 20px 31px 20px;
+	}
+
+	.cards fieldset p {
+		width: 100%;
+	}
+
+	.cards fieldset img {
+		bottom: 0;
+		right: 0;
+		top: inherit;
+		width: 100%;
+	}
+
+	.perm_proi {
+		background: none;
+		height: auto;
+		width: 100%;
+	}
+
+	.permitidos,
+	.proibidos {
+		width: 100%;
+	}
+
+	.permitidos li,
+	.proibidos li {
+		width: 100%;
+	}
+
+	.permitidos li.titulo,
+	.proibidos li.titulo {
+		display: block;		
+		font-size: 20px;
+		font-family: 'MuseoSans-700';
+	}
+
+	.permitidos li p,
+	.proibidos li p {
+		font-size: 1em;
+		width: 77%;
+	}
+
+	body.arenaCarioca1,
+	body.arenaCarioca2,
+	body.arenaCarioca3,
+	body.velodromo,
+	body.estadioAqua,
+	body.arenaFuturo,
+	body.centroAqua,
+	body.centroTenis,
+	body.campoOlimpGolfe,
+	body.pontal,
+	body.pavilhao2,
+	body.pavilhao3,
+	body.pavilhao4,
+	body.pavilhao6,
+	body.copacabana,
+	body.deodoro {
+		background-position:left top;
+		width: 100%;
+	}
+
+	.barra .wrap,
+	.copacabana .wrap,
+	.deodoro .wrap,
+	.maracana .wrap {
+		min-height: 585px;
+		padding-left: inherit;
+		width: 90%;
+	}
+
+	.barra a.voltar,
+	.copacabana a.voltar,
+	.deodoro a.voltar,
+	.maracana a.voltar {
+		margin: 0 0 34px 0;
+	}
+
+	.barra .clear,
+	.barra .margin,
+	.copacabana .clear,
+	.copacabana .margin,
+	.deodoro .clear,
+	.deodoro .margin,
+	.maracana .clear,
+	.maracana .margin {display: none;}
+
+	.barra .desc,
+	.copacabana .desc,
+	body.pontal .desc,
+	.deodoro .desc {
+		float: none;
+		margin: 25px 0;
+		width: 100%;
+	}
+
+	body.pontal .end {
+		width: 100%;
+	}
+
+	.barra .calendArena1,
+	.barra .calendArena2,
+	.barra .calendArena3,
+	.barra .calendVelodromo,
+	.barra .calendEstadioAqua,
+	.barra .calendArenaFuturo,
+	.barra .calendCentroAqua,
+	.barra .calendCentroTenis,
+	.barra .calendGolfe,
+	.barra .calendPontal,
+	.barra .calendPavilhao2,
+	.barra .calendPavilhao3,
+	.barra .calendPavilhao4,
+	.barra .calendPavilhao6,
+	.copacabana .calendario,
+	.deodoro .calendario {
+		background-position: center top;
+		float: none;
+		left: inherit;
+		margin: 10px auto 0;
+		text-align: center;
+		position: relative;
+		top: inherit;
+		width: 100%;
+	}
+
+	.copacabana .calendario,
+	.deodoro .calendario {
+		display: inherit;
+		margin: 10px auto 0;
+		width: auto;
+	}
+
+	body.bgMarinaGloria .calendario {
+		margin: 0 auto;
+		width: auto;
+	}
+
+	.barra .calendGolfe {
+		margin: 0;
+	}
+
+	.barra .modalidades,
+	body.bgEstadioLagoa .modalidades,
+	body.bgMarinaGloria .modalidades,
+	body.bgForteCopa .modalidades,
+	.deodoro ul.modalidades,
+	.maracana ul.modalidades {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	.barra .modalidades li,
+	.copacabana ul.modalidades li,
+	.deodoro ul.modalidades li {
+		margin: 0;
+	}
+
+	body.bgArenaJuventude .modalidades li,
+	body.bgDeodoro .modalidades li {
+		margin-right: 20px;
+	}
+
+	.centroAqua .modalidades,
+	.arenaRio .modalidades,
+	body.bgForteCopa .modalidades {
+		justify-content: space-between;
+	}
+
+	.judo,
+	.lutaOlimp {
+		left: 0;
+		position: relative;
+		top: 0;
+	}
+
+	body.arenaCarioca1 .icoLocal,
+	body.arenaCarioca2 .icoLocal,
+	body.arenaCarioca3 .icoLocal,
+	body.velodromo .icoLocal,
+	body.estadioAqua .icoLocal,
+	body.arenaFuturo .icoLocal,
+	body.centroAqua .icoLocal,
+	body.centroTenis .icoLocal,
+	body.arenaRio .icoLocal,
+	body.campoOlimpGolfe .icoLocal,
+	body.pontal .icoLocal,
+	body.pavilhao2 .icoLocal,
+	body.pavilhao3 .icoLocal,
+	body.pavilhao4 .icoLocal,
+	body.pavilhao6 .icoLocal,
+	body.copacabana .icoLocal,
+	body.deodoro .icoLocal,
+	body.maracana .icoLocal {
+		clear: both;
+		display: block;
+		float: left;
+		margin: 20px 0 0 0;
+		position: relative;
+		text-align: center;
+		width: 100%;
+	}
+
+	body.copacabana .icoLocal,
+	body.deodoro .icoLocal,
+	body.maracana .icoLocal {
+		left: 0;
+		top: 0;
+		background: none;
+	}
+
+	body.estadioAqua .icoLocal,
+	body.arenaFuturo .icoLocal,
+	body.centroAqua .icoLocal,
+	body.centroTenis .icoLocal,
+	body.arenaRio .icoLocal,
+	body.campoOlimpGolfe .icoLocal,
+	body.pontal .icoLocal,
+	body.pavilhao2 .icoLocal,
+	body.pavilhao3 .icoLocal,
+	body.pavilhao4 .icoLocal,
+	body.pavilhao6 .icoLocal,
+	body.estadioLagoa .icoLocal,
+	body.maracana .icoLocal {
+		margin: 20px 0;
+	}
+
+	.icoLocal img {
+		height: auto;
+		width: 80%;
+	}
+
+	body.deodoro img.icoLocal,
+	body.maracana img.icoLocal {
+		float: none;
+		height: auto;
+		margin: 20px auto 0;
+		width: 80%;
+	}
+
+	.barra .faixaAzul,
+	body.bgEstadioLagoa .faixaRoxa,
+	body.bgMarinaGloria .faixaRoxa,
+	body.bgForteCopa .faixaRoxa,
+	.deodoro .faixaVerde,
+	.maracana .faixaLaranja {
+		margin: 70px 0 50px;
+	}
+
+	.faixaAzul h3,
+	.faixaRoxa h3,
+	.faixaVerde h3,
+	.faixaLaranja h3 {
+		background-position: center top;
+		padding-left: 0;
+		padding-top: 49px;
+		text-align: center;		
+		width: 100%;
+	}
+
+	.barra .iconesChegar,
+	.deodoro .iconesChegar,
+	.copacabana .iconesChegar {
+		width: 100%;
+	}
+
+	.barra .asd,
+	.barra .zs,
+	.barra .zo,
+	.barra .rod,
+	.barra .znj,
+	.barra .air,
+	.barra .zn,
+	.barra .jcb,
+	.copacabana .asd,
+	.copacabana .zs,
+	.copacabana .zo,
+	.copacabana .rod,
+	.copacabana .znj,
+	.copacabana .air,
+	.copacabana .zn,
+	.copacabana .jcb,
+	.deodoro .asd,
+	.deodoro .zs,
+	.deodoro .zo,
+	.deodoro .rod,
+	.deodoro .znj,
+	.deodoro .air,
+	.deodoro .zn,
+	.deodoro .jcb,
+	.deodoro .ba,
+	.maracana .asd,
+	.maracana .zs,
+	.maracana .zo,
+	.maracana .rod,
+	.maracana .znj,
+	.maracana .air,
+	.maracana .zn,
+	.maracana .jcb,
+	.maracana .ba {
+		border-right: 0 none;		
+		box-sizing: border-box;
+		margin: 0 0 25px 0;
+		width: 100%;
+	}
+
+	.modalidades li.judo,
+	.modalidades li.esgrima,
+	.modalidades li.natacao,
+	.modalidades li.ciclismo {
+		margin-right: 10px;
+	}
+	.modalidades li.lutaOlimp {
+		clear: none;
+	}
+
+	.obsHora,
+	.maracana .obsHora {
+		left: 0;
+		margin: 25px 0;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+
+	.obsHora span {
+		height: 61px;
+	}
+
+	.tips .topics {
+		width: 90%;
+	}
+
+	span.plus {
+		width: 45px;
+	}
+}

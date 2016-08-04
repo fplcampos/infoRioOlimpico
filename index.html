@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Por Dentro dos Jogos Olímpicos</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('h2.accordion, .seta').click(function(event){
+				$(this).parent().find('div.accordion').slideToggle("slow");
+				$(this).parent().find('span.seta').toggleClass("up down");
+				event.preventDefault();
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="sec1">
+		<div class="content">
+			<header>
+				<h1 class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></h1>
+				<p>Os <strong>Jogos Rio 2016</strong> chegaram e a cidade está pronta para te receber! Da Zona Sul à Zona Oeste, milhares de espectadores assistirão às competições esportivas em instalações tradicionais, como o estádio do Maracanã, ou construídas especialmente para sediar as Olimpíadas, como o Parque Olímpico, na Barra da Tijuca.</p>
+
+				<p>Aqui você encontrará os principais serviços sobre os locais de competição e os boulevares<br>
+					olímpicos, além dos melhores meios de transporte público para chegar a cada um deles.</p>
+				<h2>As instalações são:</h2>
+			</header>
+		</div>
+	</div>
+	<div class="sec2">
+		<div class="content">
+			<div id="accordion">
+				<h2 class="accordion barra"><img src="assets/images/titRegBarra.png" alt="Região Barra" title="Região Barra"></h2>
+				<span class="seta down"></span>
+				<div class="accordion accBarra">
+					<fieldset class="parqueOlimpico">
+						<legend>Parque Olímpico</legend>
+						<div class="col1">
+							<a href="arena-carioca1.html" class="arenaCarioca1" alt="Arena Carioca 1" title="Arena Carioca 1"></a>
+							<a href="velodromo.html" class="velodromo" alt="Velódromo" title="Velódromo"></a>
+							<a href="estadio-aquatico.html" class="estadioAqua" alt="Estádio Aquático" title="Estádio Aquático"></a>
+						</div>
+						<div class="col2">
+							<a href="arena-carioca2.html" class="arenaCarioca2" alt="Arena Carioca 2" title="Arena Carioca 2"></a>
+							<a href="arena-futuro.html" class="arenaFuturo" alt="Arena do Futuro" title="Arena do Futuro"></a>
+							<a href="centro-aquatico-maria-lenk.html" class="centroAqua" alt="Centro Aquático Maria Lenk" title="Centro Aquático Maria Lenk"></a>
+						</div>
+						<div class="col3">
+							<a href="arena-carioca3.html" class="arenaCarioca3" alt="Arena Carioca 3" title="Arena Carioca 3"></a>
+							<a href="centro-olimpico-de-tenis.html" class="centroOlimpTenis" alt="Centro Olímpico de Tênis" title="Centro Olímpico de Tênis"></a>
+							<a href="arena-olimpica-rio.html" class="arenaOlimpRio" alt="Arena Olímpica do Rio" title="Arena Olímpica do Rio"></a>
+						</div>
+					</fieldset>
+
+					<fieldset class="riocentro_fieldset">
+						<legend>Riocentro</legend>
+						<a href="pavilhao2.html" class="icoPavilhao2" alt="Pavilhão 2" title="Pavilhão 2">Pavilhão 2</a>
+						<a href="pavilhao3.html" class="icoPavilhao3" alt="Pavilhão 3" title="Pavilhão 3">Pavilhão 3</a>
+						<a href="pavilhao4.html" class="icoPavilhao4" alt="Pavilhão 4" title="Pavilhão 4">Pavilhão 4</a>
+						<a href="pavilhao6.html" class="icoPavilhao6" alt="Pavilhão 6" title="Pavilhão 6">Pavilhão 6</a>
+					</fieldset>
+					
+					<a href="campo-olimpico-golfe.html" class="campOlimpGolf" alt="Campo Olímpico de Golfe" title="Campo Olímpico de Golfe"></a>
+					<a href="riocentro.html" class="rioCentro" alt="Riocentro" title="Riocentro"></a>
+					<a href="pontal.html" class="pontal" alt="Pontal" title="Pontal"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sec3">
+		<div class="content">
+			<div id="accordion">
+				<h2 class="accordion copa"><img src="assets/images/titRegCopa.png" alt="Região Copacabana" title="Região Copacabana"></h2>
+				<span class="seta down"></span>
+				<div class="accordion">
+					<a href="estadio-da-lagoa.html" class="estadioLagoa" alt="Estádio da Lagoa" title="Estádio da Lagoa"></a>
+					<a href="marina-da-gloria.html" class="marinaGloria" alt="Marina da Glória" title="Marina da Glória"></a>
+					<a href="forte-de-copacabana.html" class="forteCopacabana" alt="Forte de Copacabana" title="Forte de Copacabana"></a>
+					<a href="arena-de-volei-de-praia.html" class="arenaVoleiPraia" alt="Arena de Vôlei de Praia" title="Arena de Vôlei de Praia"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sec4">
+		<div class="content">
+			<div id="accordion">
+				<h2 class="accordion deod"><img src="assets/images/titRegDeod.png" alt="Região Deodoro" title="Região Deodoro"></h2>
+				<span class="seta down"></span>
+				<div class="accordion">
+					<fieldset class="complexoDeodoro">
+						<legend>Complexo Esportivo de Deodoro</legend>
+							<div class="col1">
+								<a href="centro-olimpico-bmx.html" class="centroOlimpBMX" alt="Centro Olímpico de BMX" title="Centro Olímpico de BMX"></a>
+								<a href="pista-de-mountain-bike.html" class="pistaMountain" alt="Pista de Mountain Bike" title="Pista de Mountain Bike"></a>
+								<a href="centro-aquatico-deodoro.html" class="centroAquaDeod" alt="Centro Aquático de Deodoro" title="Centro Aquático de Deodoro"></a>
+							</div>
+							<div class="col2">
+								<a href="centro-olimpico-de-hoquei.html" class="centroOlimpHoquei" alt="Centro Olímpico de Hóquei" title="Centro Olímpico de Hóquei"></a>
+								<a href="arena-da-juventude.html" class="arenaJuventude" alt="Arena da Juventude" title="Arena da Juventude"></a>
+								<a href="centro-olimpico-de-hipismo.html" class="centroOlimpHipismo" alt="Centro Olímpico de Hipismo" title="Centro Olímpico de Hipismo"></a>
+							</div>
+							<div class="col3">
+								<a href="estadio-de-canoagem-slalom.html" class="estadioCanoaSla" alt="Estádio de Canoagem Slalom" title="Estádio de Canoagem Slalom"></a>
+								<a href="estadio-deodoro.html" class="estadioDeod" alt="Estádio de Deodoro" title="Estádio de Deodoro"></a>
+								<a href="estadio-olimpico-de-tiro.html" class="centroOlimpTiro" alt="Centro Olímpico de Tiro" title="Centro Olímpico de Tiro"></a>
+							</div>						
+					</fieldset>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sec5">
+		<div class="content">
+			<div id="accordion">
+				<h2 class="accordion mara"><img src="assets/images/titRegMara.png" alt="Região Maracanã" title="Região Maracanã"></h2>
+				<span class="seta down"></span>
+				<div class="accordion">
+					<a href="engenhao.html" class="estadioOlimpEngenho" alt="Estádio Olímpico (Engenhão)" title="Estádio Olímpico (Engenhão)"></a>
+					<a href="maracana.html" class="estadioMaracana" alt="Estádio do Maracanã" title="Estádio do Maracanã"></a>
+					<a href="maracanazinho.html" class="maracanazinho" alt="Maracanãzinho" title="Maracanãzinho"></a>
+					<a href="sambodromo.html" class="sambodromo" alt="Sambódromo" title="Sambódromo"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mapa">
+		<div class="content">
+			<span class="pinGig"></span>
+			<a href="mapa.html" class="btCliqueMapa"></a>
+			<p>e navegue por todas<br>
+				as instalações e tenha as informações<br>
+				completas para você.</p>
+		</div>
+	</div>
+	<div class="final">
+		<div class="content">
+			<h2>Transporte</h2>
+			<p>Você chega aos locais de competições através dos seguintes meios de transporte:</p>
+			<ul class="transportes">
+				<li class="tp1">
+					<img src="assets/images/tpVLT.png" alt="">
+					<p>VLT</p>
+					<span>(Veículo Leve sobre Trilho)</span>
+				</li>
+				<li class="tp2">
+					<img src="assets/images/tpBRT.png" alt="">
+					<p>BRT</p>
+				</li>
+				<li class="tp3">
+					<img src="assets/images/tpTrem.png" alt="">
+					<p>Trem</p>
+				</li>
+				<li class="tp4">
+					<img src="assets/images/tpMetro.png" alt="">
+					<p>Metrô</p>
+				</li>
+				<li class="tp5">
+					<img src="assets/images/tpOnibus.png" alt="">
+					<p>Ônibus Municipais</p>
+				</li>
+			</ul>
+			<div class="cards">
+				<fieldset>
+					<legend>E não se esqueça:</legend>
+					<p>Para quem for assistir aos Jogos, o pagamento poderá ser realizado com o cartão especial aceito em diferentes meios de transporte público.</p>
+					<img src="assets/images/cards.png" alt="">
+				</fieldset>
+			</div>
+			
+			<div class="perm_proi">
+				<h2>Dicas</h2>
+				<p>Veja aqui uma lista de itens permitidos e proibidos nas instalações olímpicas.</p>
+			</div>
+			<div class="permitidos">
+				<ul>
+					<li class="titulo">Permitidos</li>
+					<li class="item1">
+						<span></span>
+						<p>Alimentos não-perecíveis para consumo pessoal, na embalagem original e lacrada (p. ex. biscoitos, barras de cereal e alimentação de bebês). Recipientes de vidro não são permitidos</p>
+					</li>
+					<li class="item2">
+						<span></span>
+						<p>Alimentos e bebidas para pessoas com necessidades médicas, com receita contendo CRM do médico emissor</p>
+					</li>
+					<li class="item3">
+						<span></span>
+						<p>Até cinco embalagens de produtos de higiene e cuidados pessoais (p. ex. repelentes, protetor/bloqueador solar), na embalagem original, com volume limite de 200ml cada, totalizando a quantidade máxima de 1 litro. Recipientes de vidro não são permitidos</p>
+					</li>
+					<li class="item4">
+						<span></span>
+						<p>Carrinhos de bebê serão permitidos em locais específicos da instalação</p>
+					</li>
+					<li class="item5">
+						<span></span>
+						<p>Guarda-chuvas de tamanho pequeno, dobrável, sem indicação de marca e que não tenham extremidades pontiagudas</p>
+					</li>
+					<li class="item6">
+						<span></span>
+						<p>Garrafas de plástico vazias e sem indicação de marca</p>
+					</li>
+				</ul>
+			</div>
+			<div class="bull"></div>
+			<div class="proibidos">
+				<ul>
+					<li class="titulo">Proibidos</li>
+					<li class="item1">
+						<span></span>
+						<p>Bastão de selfie</p>
+					</li>
+					<li class="item2">
+						<span></span>
+						<p>Bebidas (alcoólicas ou não)</p>
+					</li>
+					<li class="item3">
+						<span></span>
+						<p>Cartazes de protesto</p>
+					</li>
+					<li class="item4">
+						<span></span>
+						<p>Objetos que causam ruído excessivo (cornetas, megafone, apitos)</p>
+					</li>
+					<li class="item5">
+						<span></span>
+						<p>Bicicleta, patins, skate, bolas e afins</p>
+					</li>
+					<li class="item6">
+						<span></span>
+						<p>Capacetes</p>
+					</li>
+					<li class="item7">
+						<span></span>
+						<p>Animais</p>
+					</li>
+					<li class="item8">
+						<span></span>
+						<p>Armas de fogo</p>
+					</li>
+					<li class="item9">
+						<span></span>
+						<p>Materiais explosivos (fogos e sinalizadores, por exemplo)</p>
+					</li>
+					<li class="item10">
+						<span></span>
+						<p>Armas brancas (faca, tesoura, canivete, etc)</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
